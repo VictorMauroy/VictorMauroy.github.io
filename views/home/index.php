@@ -1,6 +1,7 @@
-<?php 
+<?php
 
 ?>
+
 
 <!DOCTYPE html>
 <html>
@@ -11,7 +12,19 @@
 </head>
 
 <body>
+    <?php
+        // Inserting the header with the navigation bar. 
+        readfile("../../components/header/header.php");
+    ?>
+
     <h1>Welcome to something</h1>
+    
+
+
+    <?php
+        // Inserting the header with the navigation bar. 
+        readfile("../../components/footer/footer.php");
+    ?>
 </body>
 
 </html>

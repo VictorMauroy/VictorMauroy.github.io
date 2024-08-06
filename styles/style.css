@@ -1,0 +1,13 @@
+/* Universal elements */
+
+
+/* Specific classes and ids*/
+
+.navigation {
+    width: 100%;
+}
+
+.navigation li {
+    display: inline;
+    list-style-type: none;
+}
