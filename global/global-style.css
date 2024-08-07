@@ -1,5 +1,8 @@
 /* Universal elements */
-
+* {
+    margin: 0;
+    padding: 0;
+}
 
 /* Specific classes and ids*/
 
