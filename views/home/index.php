@@ -8,7 +8,9 @@
 
 <head>
   <title>Victor Mauroy - Portfolio</title>
-  <link rel='stylesheet' type='text/css' href='../../styles/style.css'>
+  <link rel='stylesheet' type='text/css' href='../../global/global-style.css'>
+  <link rel='stylesheet' type='text/css' href='../../components/header/header-style.css'>
+  <link rel='stylesheet' type='text/css' href='../../components/footer/footer-style.css'>
 </head>
 
 <body>
