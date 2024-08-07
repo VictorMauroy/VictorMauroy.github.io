@@ -8,5 +8,5 @@
 
 <!-- Scripts -->
     <script src="../../assets/jquery-3.7.1.min.js"></script>
-    <script src="../navigation/navigation.js"></script>
+    <script src="../../components/navigation/navigation.js"></script>
 </head>

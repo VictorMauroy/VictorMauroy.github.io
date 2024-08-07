@@ -2,11 +2,16 @@
 
 <nav id="navigation">
     <ul>
-        <li><a href="">Accueil</a></li>
-        <li><a href="">Projets</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li id="projects">Projects</li>
+        <li id="games">Games</li>
+        <li><a href="#Contact">Contact</a></li>
         <li><a href="../../views/about/about.php">About</a></li>
     </ul>
+    <div class="nav-expansion" id="more-projects">
+        Hello
+    </div>
 </nav>
 
 
