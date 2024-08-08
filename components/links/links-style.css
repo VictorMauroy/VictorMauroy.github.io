@@ -1,0 +1,15 @@
+.personal-links {
+    position: fixed;
+    right: 0;
+    /* Place the icons on the middle right. top property ? */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+}
+
+.personal-links img {
+    width: 50px;
+    height: 50px;
+     /* Add something to avoid rectangle images to wrap themselves*/
+}
