@@ -12,6 +12,9 @@
     <div class="nav-expansion" id="more-projects">
         Hello
     </div>
+    <div class="nav-expansion" id="more-games">
+        Hello
+    </div>
 </nav>
 
 

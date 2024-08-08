@@ -4,5 +4,17 @@
     padding: 0;
 }
 
+h1 {
+    padding: 1em;
+}
+
 /* Specific classes and ids*/
 
+.galery {
+    display: block;
+}
+
+.galery img {
+    width: 25%;
+    height: 25%;
+}
