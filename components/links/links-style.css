@@ -9,7 +9,15 @@
 }
 
 .personal-links img {
+    padding: 0.5em;
     width: 50px;
     height: 50px;
-     /* Add something to avoid rectangle images to wrap themselves*/
+    /* Add something to avoid rectangle images to wrap themselves*/
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+
+.personal-links img:hover {
+    background-color: azure;
 }
