@@ -48,5 +48,5 @@
 }
 
 #more-projects, #more-games{
-    visibility: hidden;
+    visibility: hidden; /* Removing absolute from parent and setting the display to none could also be an option.*/
 }

@@ -14,6 +14,9 @@
     <?php
         // Inserting the header with the navigation bar. 
         readfile("../../components/navigation/navigation.php");
+
+        // Insert the links at the right of the page
+        readfile("../../components/links/links.php");
         ?>
 
     <h1>Temporary galery of images</h1>
@@ -31,7 +34,7 @@
 
 
     <?php
-        // Inserting the header with the navigation bar. 
+        // Insert the footer. 
         readfile("../../components/footer/footer.php");
     ?>
 </body>

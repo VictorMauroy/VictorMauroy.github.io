@@ -4,8 +4,13 @@
     padding: 0;
 }
 
+body {
+    padding: 0em 1em;
+    background-color: antiquewhite;
+}
+
 h1 {
-    padding: 1em;
+    padding: 0.75em;
 }
 
 /* Specific classes and ids*/
@@ -15,6 +20,6 @@ h1 {
 }
 
 .galery img {
-    width: 25%;
-    height: 25%;
+    width: 30%;
+    height: 30%;
 }
