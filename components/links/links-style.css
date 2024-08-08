@@ -15,6 +15,7 @@
     /* Add something to avoid rectangle images to wrap themselves*/
     object-fit: contain;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 
