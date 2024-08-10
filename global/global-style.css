@@ -1,3 +1,31 @@
+/* Variables */
+:root {
+    --background: ;
+    --subtle-background: ;
+    --ui-background : ;
+    
+    --hovered-element: ;
+    --active-element: ;
+    
+    --subtle-borders: ;
+    --ui-border-focus: ;
+    --ui-hovered-borders: ;
+
+    --solid-backgrounds: ;
+    --hovered-solid-backgrounds: ;
+
+    --low-contrast-text: ;
+    --high-contrast-text: ;
+
+    /* To use a css variable => 
+        color: var(--your-variable); */
+}
+
+/* .dark {
+    You should define the same as in root 
+    but for a dark mode
+} */
+
 /* Universal elements */
 * {
     margin: 0;

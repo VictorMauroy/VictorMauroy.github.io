@@ -29,7 +29,7 @@
         <img src="../../assets/images/paulina-bochniak-saviour.jpg" alt="Polina Bochniak Saviour"/>
         <img src="../../assets/images/xc-k-.jpg" alt="Don't remember"/>
         <img src="../../assets/images/yuumei-wenqing-yan-feel-the-wind-post.jpg" alt="Yuumei wenqing"/>
-        <img src="../../assets/images/zhang-pengzhen-1920 (1).jpg" alt="Zhang Pengzhen"/>
+        <img src="../../assets/images/zhang-pengzhen-1920.jpg" alt="Zhang Pengzhen"/>
     </section>
 
 
