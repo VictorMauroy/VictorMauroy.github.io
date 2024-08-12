@@ -1,21 +1,31 @@
 /* Variables */
 :root {
-    --background: ;
-    --subtle-background: ;
-    --ui-background : ;
+    /* Backgrounds */
+    --background: #0D1520;
+    --subtle-background: #111927;
+    --ui-background : #0D2847;
     
-    --hovered-element: ;
-    --active-element: ;
+    --hovered-element: #003362; /* SECONDARY : Hovered backgrounds / elements */
+    --active-element: #004074;
     
-    --subtle-borders: ;
-    --ui-border-focus: ;
-    --ui-hovered-borders: ;
+    --subtle-borders: #104D87;
+    --ui-border-focus: #205D9E;
+    --ui-hovered-borders: #2870BD;
 
-    --solid-backgrounds: ;
-    --hovered-solid-backgrounds: ;
-
-    --low-contrast-text: ;
-    --high-contrast-text: ;
+    --solid-backgrounds: #0090FF; /* PRIMARY 
+        Website/App backgrounds
+        Website section backgrounds
+        Header backgrounds
+        Component backgrounds
+        Graphics/Logos
+        Overlays
+        Coloured shadows
+        Accent borders */
+    --hovered-solid-backgrounds: #3B9EFF; /* ACCENT : a contrasting color used to draw attention to key pieces of a web page */
+    
+    /* Texts */
+    --low-contrast-text: #70B8FF;
+    --high-contrast-text: #C2E6FF;
 
     /* To use a css variable => 
         color: var(--your-variable); */
