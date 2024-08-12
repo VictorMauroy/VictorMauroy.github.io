@@ -31,10 +31,29 @@
         color: var(--your-variable); */
 }
 
-/* .dark {
-    You should define the same as in root 
-    but for a dark mode
-} */
+.light {
+    /* You should define the same as in root 
+    but for a light mode */
+
+    /* Backgrounds */
+    --background: #dee6f2;
+    --subtle-background: ;
+    --ui-background : ;
+    
+    --hovered-element: #9ed0ff; /* SECONDARY */
+    --active-element: ;
+    
+    --subtle-borders: ;
+    --ui-border-focus: ;
+    --ui-hovered-borders: ;
+
+    --solid-backgrounds: #0091ff; /* PRIMARY */
+    --hovered-solid-backgrounds: #0061c2; /* ACCENT */
+    
+    /* Texts */
+    --low-contrast-text: ;
+    --high-contrast-text: #001f3d;
+}
 
 /* Universal elements */
 * {
