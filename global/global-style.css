@@ -59,15 +59,17 @@
 * {
     margin: 0;
     padding: 0;
+    color: var(--low-contrast-text);
 }
 
 body {
     padding: 0em 1em;
-    background-color: antiquewhite;
+    background-color: var(--background);
 }
 
 h1 {
     padding: 0.75em;
+    color: var(--high-contrast-text);
 }
 
 /* Specific classes and ids*/

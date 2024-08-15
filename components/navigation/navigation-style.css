@@ -2,15 +2,25 @@
     position: fixed;
     z-index: 10000;
     width: 100%;
+    background-color: var(--ui-background);
     top: 0;
     left: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+#navigation p {
+    display: inline;
+    width: 25%;
+    padding: 1em 1em;
+    min-width: 120px;
+    text-align: center;
+}
+
 #navigation ul {
+    display: inline;
+    width: 75%;
     display: flex;
     flex-direction: row;
-    background-color: black;
     justify-content: center;
 }
 
@@ -20,12 +30,12 @@
     min-width: 90px;
     text-align: center;
     font-size: 1.4em;
-    color: azure;
+    color: var(--high-contrast-text);
     cursor: default;
 }
 
 #navigation ul li:hover {
-    background-color: rgb(56, 56, 56);
+    background-color: var(--hovered-element);
     color: firebrick;
     font-weight: bold;
 }

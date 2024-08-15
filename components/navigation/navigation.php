@@ -1,6 +1,7 @@
 <?php ?>
 
 <nav id="navigation">
+    <p>VMauroy</p>
     <ul>
         <li><a href="">Home</a></li>
         <li><a href="">About</a></li>
@@ -9,12 +10,6 @@
         <li><a href="#Contact">Contact</a></li>
         <li><a href="../../views/about/about.php">About</a></li>
     </ul>
-    <div class="nav-expansion" id="more-projects">
-        Hello
-    </div>
-    <div class="nav-expansion" id="more-games">
-        Hello
-    </div>
 </nav>
 
 
