@@ -60,6 +60,7 @@
     margin: 0;
     padding: 0;
     color: var(--low-contrast-text);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -70,6 +71,10 @@ body {
 h1 {
     padding: 0.75em;
     color: var(--high-contrast-text);
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* Specific classes and ids*/

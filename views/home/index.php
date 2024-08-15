@@ -1,8 +1,3 @@
-<?php
-
-?>
-
-
 <!DOCTYPE html>
 <html>
 
@@ -17,7 +12,7 @@
 
         // Insert the links at the right of the page
         readfile("../../components/links/links.php");
-        ?>
+    ?>
 
     <h1>Temporary galery of images</h1>
     

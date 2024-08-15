@@ -4,7 +4,8 @@
     <p>VMauroy</p>
     <ul>
         <li><a href="">Home</a></li>
-        <li><a href="">Presentation</a></li>
+        <li><a href="">Profile</a></li>
+        <li><a href="">Skills</a></li>
         <li id="projects">Projects</li>
         <li id="games">Games</li>
         <li><a href="#Contact">Contact</a></li>
