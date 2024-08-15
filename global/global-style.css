@@ -64,8 +64,11 @@
 }
 
 body {
-    padding: 0em 1em;
     background-color: var(--background);
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h1 {
@@ -73,11 +76,46 @@ h1 {
     color: var(--high-contrast-text);
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Times New Roman', Times, serif;
-}
 
 /* Specific classes and ids*/
+
+#banner {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    #banner::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+
+        background-image: url("../assets/design/banner.jpg");
+        background-size: cover;
+        opacity: 0.3;
+    }
+
+    #banner div {
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+
+        #banner div h1 {
+            color: var(--high-contrast-text);
+            font-size: 3em;
+        }
+
+        #banner div p {
+            font-size: 2.5em;
+        }
+
 
 .galery {
     display: block;

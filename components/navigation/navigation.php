@@ -14,4 +14,4 @@
 
 
 <!-- Should add something to add space before next elements (to not hide them) --> 
-<div id="nav-height"></div>
+<!-- <div id="nav-height"></div> -->

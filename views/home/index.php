@@ -14,7 +14,16 @@
         readfile("../../components/links/links.php");
     ?>
 
-    <h1>Temporary galery of images</h1>
+    <div id="banner">
+        <div>
+            <h1>Victor Mauroy</h1>
+            <p>Web and Unity Developer</p>
+            <button>
+                Learn more about me
+            </button>
+        </div>
+    </div>
+
     
     <p>I <strong>do not</strong> own the images and use them for testing my galery.</p>
     <section class="galery">
