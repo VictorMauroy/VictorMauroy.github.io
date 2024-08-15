@@ -13,3 +13,15 @@ Give advices and **help trying colors and fonts**.
 Other useful things:
 - [Tailwind](https://tailwindcss.com/), a CSS framework. Similar to bootstrap. Really useful to **quickly define the appearance of elements**. Add classes and see the result.
     * [HyperUi](https://www.hyperui.dev/) Quickly implement predefined components that uses Tailwind. 
+
+## Useful commands to run a php website
+
+**Run a local** server at the port 8000.
+```bash
+php -S localhost:8000
+```
+
+Run a local server at the port 8000, **with a specified origin folder**.
+```bash
+php -S localhost:8000 -t views/home/
+```

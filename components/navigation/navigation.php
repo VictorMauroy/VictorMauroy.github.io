@@ -4,11 +4,10 @@
     <p>VMauroy</p>
     <ul>
         <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
+        <li><a href="">Presentation</a></li>
         <li id="projects">Projects</li>
         <li id="games">Games</li>
         <li><a href="#Contact">Contact</a></li>
-        <li><a href="../../views/about/about.php">About</a></li>
     </ul>
 </nav>
 
