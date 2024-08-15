@@ -76,6 +76,17 @@ h1 {
     color: var(--high-contrast-text);
 }
 
+button {
+    background-color: var(--ui-background);
+    padding: 0.5em 0.5em;
+    border: solid 3px var(--subtle-borders);
+    border-radius: 4px;
+}
+
+    button:hover {
+        background-color: var(--hovered-element);
+        border: solid 3px var(--ui-hovered-borders);
+    }
 
 /* Specific classes and ids*/
 
@@ -98,7 +109,7 @@ h1 {
 
         background-image: url("../assets/design/banner.jpg");
         background-size: cover;
-        opacity: 0.3;
+        opacity: 0.25;
     }
 
     #banner div {
@@ -106,16 +117,34 @@ h1 {
         position: relative;
         text-align: center;
     }
-
+    
         #banner div h1 {
             color: var(--high-contrast-text);
-            font-size: 3em;
+            font-size: 4em;
         }
-
+        
         #banner div p {
-            font-size: 2.5em;
+            font-size: 3.5em;
         }
+        
+        #banner div a {
+            display: inline-block;
+            max-width: 250px;
+            background-color: var(--ui-background);
+            border: solid 3px var(--subtle-borders);
+            border-radius: 4px;
+            
+            padding: 0.5em 0.8em;
+            margin: 2em;
+            font-size: 1.5em;
 
+            text-decoration: none;
+        }
+        
+            #banner div a:hover {
+                background-color: var(--hovered-element);
+                border: solid 3px var(--ui-hovered-borders);
+            }
 
 .galery {
     display: block;

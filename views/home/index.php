@@ -18,9 +18,7 @@
         <div>
             <h1>Victor Mauroy</h1>
             <p>Web and Unity Developer</p>
-            <button>
-                Learn more about me
-            </button>
+            <a href="">Learn more about me</a>
         </div>
     </div>
 
