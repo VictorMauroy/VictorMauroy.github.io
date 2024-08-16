@@ -121,10 +121,14 @@ button {
         #banner div h1 {
             color: var(--high-contrast-text);
             font-size: 4em;
+            letter-spacing: 5px;
+            padding-bottom: 0.5em;
         }
         
         #banner div p {
-            font-size: 3.5em;
+            font-size: 3em;
+            font-weight: lighter;
+            text-shadow: 3px 3px 2px var(--active-element);
         }
         
         #banner div a {
@@ -132,10 +136,10 @@ button {
             max-width: 250px;
             background-color: var(--ui-background);
             border: solid 3px var(--subtle-borders);
-            border-radius: 4px;
+            border-radius: 8px;
             
             padding: 0.5em 0.8em;
-            margin: 2em;
+            margin: 1.5em;
             font-size: 1.5em;
 
             text-decoration: none;
