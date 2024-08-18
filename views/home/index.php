@@ -26,10 +26,10 @@
         <h2>About me</h2>
         <div> <!-- Flex with image on the right and text on the left-->
             <div id="profile-picture">
-                <img src="../../assets/images/profile/profile_picture2 cropped.jpg" />
+                <img src="../../assets/images/profile/profile_picture2_cropped.jpg" />
                 <button>
-                    <img src="" />
-                    Download resume
+                    <img src="../../assets/logos/Download_Arrow.png" />
+                    <p>Download resume</p>
                 </button>
             </div>
             <p>
