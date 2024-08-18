@@ -14,11 +14,12 @@
         readfile("../../components/links/links.php");
     ?>
 
+    
     <div id="banner">
         <div>
             <h1>Victor Mauroy</h1>
             <p>Web and Unity Developer</p>
-            <a href="">Learn more</a>
+            <a href="#about">Learn more</a>
         </div>
     </div>
 
@@ -26,6 +27,7 @@
         <h2>About me</h2>
         <div> <!-- Flex with image on the right and text on the left-->
             <div id="profile-picture">
+<!-- Find a better profile picture -->
                 <img src="../../assets/images/profile/profile_picture2_cropped.jpg" />
                 <button>
                     <img src="../../assets/logos/Download_Arrow.png" />
@@ -33,6 +35,8 @@
                 </button>
             </div>
             <p>
+<!-- Isn't there too much text ? 
+    I should add informations about current location and experience  -->
                 Hello ! My name is Victor Mauroy, web developer who is also capable of creating games. 
                 <br>
                 <br>
@@ -57,6 +61,8 @@
         <img src="../../assets/images/galery/yuumei-wenqing-yan-feel-the-wind-post.jpg" alt="Yuumei wenqing"/>
         <img src="../../assets/images/galery/zhang-pengzhen-1920.jpg" alt="Zhang Pengzhen"/>
     </section>
+
+    
 
 
     <?php

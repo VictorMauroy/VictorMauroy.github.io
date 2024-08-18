@@ -67,6 +67,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--background);
 }
@@ -218,4 +222,8 @@ button {
 .galery img {
     width: 30%;
     height: 30%;
+}
+
+.highlighted-color {
+    color: var(--high-contrast-text);
 }
