@@ -22,11 +22,27 @@
         </div>
     </div>
 
-    <section>
+    <section id="about">
         <h2>About me</h2>
         <div> <!-- Flex with image on the right and text on the left-->
-            <img src="../../assets/images/profile/profile_picture2.jpg" />
-            <p></p>
+            <div id="profile-picture">
+                <img src="../../assets/images/profile/profile_picture2 cropped.jpg" />
+                <button>
+                    <img src="" />
+                    Download resume
+                </button>
+            </div>
+            <p>
+                Hello ! My name is Victor Mauroy, web developer who is also capable of creating games. 
+                <br>
+                <br>
+                Having completed many formations, I’m currently looking for a first job or an apprenticeship. 
+                <br>
+                <br>
+                Originally doing a lot of C# and .NET development, I want to expand my skills. Therefore, practicing more different back-end languages and trying multiple front-end technologies is my current objective on my free time.
+                <br>
+                <br>
+                Working as a software developer implies having a lot of things to learn and always staying up-to-date, that’s what I love : the never-ending path leading to complete mastery.</p>
         </div>
     </section>
 
