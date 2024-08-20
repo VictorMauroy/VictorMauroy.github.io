@@ -14,7 +14,7 @@
         readfile("../../components/links/links.php");
     ?>
 
-    
+
     <div id="banner">
         <div>
             <h1>Victor Mauroy</h1>
@@ -28,7 +28,7 @@
         <div> <!-- Flex with image on the right and text on the left-->
             <div id="profile-picture">
 <!-- Find a better profile picture -->
-                <img src="../../assets/images/profile/profile_picture2_cropped.jpg" />
+                <img src="../../assets/images/profile/profile-picture-with-background.jpg" />
                 <button>
                     <img src="../../assets/logos/Download_Arrow.png" />
                     <p>Download resume</p>
@@ -37,10 +37,7 @@
             <p>
 <!-- Isn't there too much text ? 
     I should add informations about current location and experience  -->
-                Hello ! My name is Victor Mauroy, web developer who is also capable of creating games. 
-                <br>
-                <br>
-                Having completed many formations, I’m currently looking for a first job or an apprenticeship. 
+                Hello ! My name is Victor Mauroy, a web developer who is also doing game development. 
                 <br>
                 <br>
                 Originally doing a lot of C# and .NET development, I want to expand my skills. Therefore, practicing more different back-end languages and trying multiple front-end technologies is my current objective on my free time.
@@ -48,6 +45,12 @@
                 <br>
                 Working as a software developer implies having a lot of things to learn and always staying up-to-date, that’s what I love : the never-ending path leading to complete mastery.</p>
         </div>
+    </section>
+
+    <section id="current-activity">
+        <!-- AI generated image made by TheDigitalArtist -->
+        <h2>Currently</h2>
+        <p>Searching for a first job or an apprenticeship.</p>
     </section>
 
     

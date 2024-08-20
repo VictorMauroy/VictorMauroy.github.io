@@ -93,14 +93,12 @@ button {
     padding: 0.5em 0.5em;
     border: solid 3px var(--subtle-borders);
     border-radius: 4px;
-}
 
-    button:hover {
+    &:hover{
         background-color: var(--hovered-element);
         border: solid 3px var(--ui-hovered-borders);
     }
-
-
+}
 
 
 /* Specific classes and ids*/
@@ -158,21 +156,22 @@ button {
             font-size: 1.5em;
 
             text-decoration: none;
-        }
-        
-            #banner div a:hover {
+
+            &:hover {
                 background-color: var(--hovered-element);
                 border: solid 3px var(--ui-hovered-borders);
             }
+        }
 
 #about {    
     height: 100vh;
-    padding: 2em 3em;
+    padding: 2em 5em;
 }
 
     #about h2 {
         text-align: center;
         padding: 1em;
+        color: var(--high-contrast-text);
     }
 
     #about div {
@@ -180,22 +179,22 @@ button {
     }
 
         #about div p {
-            font-size: 1.4em;
+            font-size: 1.3em;
             display: block;
             text-align: justify;
-            padding: 1em 3em;
+            padding: 1em 4em;
         }
 
 #profile-picture {
-    padding: 1em 3em;
+    padding: 1em 4em;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
     #profile-picture img {
-        width: 240px;
-        height: 330px;
+        width: 260px;
+        height: 338px;
         margin-bottom: 2em;
     }
     
@@ -213,7 +212,47 @@ button {
         #profile-picture button p {
             display: inline;
             padding: 0.5em;
+            font-size: 1.3em;
         }
+
+#current-activity {
+    position: relative;
+    padding: 2.3em;
+}
+
+    #current-activity::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+
+        background-image: url("../assets/design/ai-generated-7945689_1920_TheDigitalArtist.jpg");
+        background-size: cover;
+        opacity: 0.4;
+        background-attachment: fixed;
+    }
+
+    /* Turn off parallax scrolling for all tablets and phones. */
+    @media only screen and (max-device-width: 1366px) {
+        #current-activity::before {
+        background-attachment: scroll;
+        }
+    }
+
+    #current-activity h2 {
+        position: relative;
+        margin-bottom: 0.5em;
+        text-align: center;
+        color: var(--high-contrast-text);
+    }
+    
+    #current-activity p {
+        text-align: center;
+        position: relative;
+        font-size: 1.3em;
+    }
 
 .galery {
     display: block;
