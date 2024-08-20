@@ -53,19 +53,20 @@
         <p>Searching for a first job or an apprenticeship.</p>
     </section>
 
-    
-    <p>I <strong>do not</strong> own the images and use them for testing my galery.</p>
-    <section class="galery">
-        <img src="../../assets/images/galery/omer-tunc-sovale-copy.jpg" alt="Omer Tunc picture 1"/>
-        <img src="../../assets/images/galery/omer-tunc-the-night-the-angel-and-our-gang.jpg" alt="Omer Tunc picture 2"/>
-        <img src="../../assets/images/galery/omer-tunc-wolverin-copy.jpg" alt="Omer Tunc picture 3"/>
-        <img src="../../assets/images/galery/paulina-bochniak-saviour.jpg" alt="Polina Bochniak Saviour"/>
-        <img src="../../assets/images/galery/xc-k-.jpg" alt="Don't remember"/>
-        <img src="../../assets/images/galery/yuumei-wenqing-yan-feel-the-wind-post.jpg" alt="Yuumei wenqing"/>
-        <img src="../../assets/images/galery/zhang-pengzhen-1920.jpg" alt="Zhang Pengzhen"/>
-    </section>
+    <section id="skills">
+        <h2>Technical skills</h2>
+        <div class ="left-skills">
+            
+        </div>
+        
+        <div class="right-skills">
 
-    
+        </div>
+
+        <div class="left-skills">
+        
+        </div>
+    </section>
 
 
     <?php

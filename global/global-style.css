@@ -1,4 +1,4 @@
-/* Variables */
+/*#region Variables */
 
 :root {
     /* Backgrounds */
@@ -56,10 +56,10 @@
     --high-contrast-text: #001f3d;
 }
 
+/*#endregion Variables */
 
 
-
-/* Universal elements */
+/*#region UniversalElements*/
 * {
     margin: 0;
     padding: 0;
@@ -99,10 +99,22 @@ button {
         border: solid 3px var(--ui-hovered-borders);
     }
 }
+/*#endregion UniversalElements */
 
+/*#region SpecificClasses_and_ids*/
 
-/* Specific classes and ids*/
+/*#region Galery*/
+.galery {
+    display: block;
+}
 
+.galery img {
+    width: 30%;
+    height: 30%;
+}
+/*#endregion */
+
+/*#region Banner */
 #banner {
     position: relative;
     height: 100vh;
@@ -162,8 +174,10 @@ button {
                 border: solid 3px var(--ui-hovered-borders);
             }
         }
+/*#endregion Banner */
 
-#about {    
+/*#region AboutMe */
+#about { 
     height: 100vh;
     padding: 2em 5em;
 }
@@ -215,6 +229,9 @@ button {
             font-size: 1.3em;
         }
 
+/*#endregion AboutMe */
+
+/*#region CurrentActivity */
 #current-activity {
     position: relative;
     padding: 2.3em;
@@ -253,16 +270,27 @@ button {
         position: relative;
         font-size: 1.3em;
     }
+/*#endregion CurrentActivity */
 
-.galery {
-    display: block;
+/*#region TechnicalSkills */
+#skills {
+
 }
 
-.galery img {
-    width: 30%;
-    height: 30%;
+.left-skills {
+
 }
+
+.right-skills {
+
+}
+
+/*#endregion TechnicalSkills */
+    
+
 
 .highlighted-color {
     color: var(--high-contrast-text);
 }
+
+/*#endregion SpecificClasses_and_ids*/
