@@ -56,7 +56,30 @@
     <section id="skills">
         <h2>Technical skills</h2>
         <div class ="left-skills">
-            
+            <div class="skill-item highlighted-item">
+                <img src="../../assets/logos/net-logo.png" alt=".NET logo" />
+                <span>.NET (C#)</span>
+            </div>
+            <div class="skill-item">
+                <img src="../../assets/logos/javascript-logo.png" alt="javascript logo" />
+                <span>Javascript</span>
+            </div>
+            <div class="skill-item">
+                <img src="../../assets/logos/php-logo.png" alt="php logo" />
+                <span>PHP</span>
+            </div>
+            <div class="skill-item">
+                <img src="../../assets/logos/python-logo.png" alt="python logo" />
+                <span>Javascript</span>
+            </div>
+            <div class="skill-item">
+                <img src="../../assets/logos/pgsql-logo.png" alt="PostgreSQL logo" />
+                <span>PostgreSQL</span>
+            </div>
+            <div class="skill-item">
+                <img src="../../assets/logos/mysql-logo.png" alt="mysql logo" />
+                <span>MySQL</span>
+            </div>
         </div>
         
         <div class="right-skills">

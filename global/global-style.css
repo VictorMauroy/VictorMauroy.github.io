@@ -277,12 +277,50 @@ button {
 
 }
 
-.left-skills {
+    #skills h2 {
+        text-align: center;
+        padding: 1em;
+        color: var(--high-contrast-text);
+    }
 
+.left-skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    margin: 2em 4em;
+    border-left: solid var(--subtle-borders) 4px;
+    border-top: solid var(--subtle-borders) 4px;
+    border-radius: 5px;
 }
 
 .right-skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
+.skill-item {
+    margin: 2em;
+    min-width: 200px;
+}
+
+    .skill-item img {
+        display: inline;
+        object-fit: contain;
+        width: 60px;
+        height: 60px;
+    }
+
+    .skill-item span {
+        padding: 1em;
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+.highlighted-item {
+    background-color: var(--solid-backgrounds);
+    color: var(--high-contrast-text);
 }
 
 /*#endregion TechnicalSkills */
