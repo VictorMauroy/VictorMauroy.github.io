@@ -5,7 +5,7 @@
     <ul>
         <li><a href="#banner">Home</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="">Skills</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li id="projects">Projects</li>
         <li id="games">Games</li>
         <li><a href="#Contact">Contact</a></li>
