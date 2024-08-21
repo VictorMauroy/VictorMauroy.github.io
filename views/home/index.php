@@ -56,6 +56,8 @@
     <section id="skills">
         <h2>Technical skills</h2>
         <div class ="left-skills skill-section">
+            <h3 class="skill-title-left">Back-end</h3>
+            
             <div class="skill-item highlighted-item">
                 <img src="../../assets/logos/net-logo.png" alt=".NET logo" />
                 <span>.NET (C#)</span>

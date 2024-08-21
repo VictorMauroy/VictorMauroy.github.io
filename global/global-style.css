@@ -274,7 +274,7 @@ button {
 
 /*#region TechnicalSkills */
 #skills {
-
+    padding: 2em;
 }
 
     #skills h2 {
@@ -288,12 +288,14 @@ button {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 1.5em;
+    position: relative;
 }
 
 .left-skills {
     width: 80%;
     
-    margin: 2em 4em;
+    margin: 2em 5em;
     border-left: solid var(--subtle-borders) 4px;
     border-top: solid var(--subtle-borders) 4px;
     border-radius: 5px;
@@ -304,14 +306,14 @@ button {
     float: right;
     width: 80%;
 
-    margin: 4em 4em;
+    margin: 4em 5em;
     border-right: solid var(--subtle-borders) 4px;
     border-top: solid var(--subtle-borders) 4px;
     border-radius: 5px;
 }
 
 .skill-item {
-    margin: 2em;
+    margin: 1.5em;
     min-width: 300px;
     display: flex;
     flex-direction: row;
@@ -331,6 +333,26 @@ button {
         vertical-align: middle;
         color: inherit;
     }
+
+.skill-title-left {
+    position: absolute;
+    top: -42px;
+    left: 70px;
+    font-size: 2.2em;
+    padding: 0.5em 1.5em;
+    background-color: var(--background);
+    font-weight: normal;
+}
+
+.skill-title-right {
+    position: absolute;
+    top: -42px;
+    right: -70px;
+    font-size: 2.2em;
+    padding: 0.5em 1.5em;
+    background-color: var(--background);
+    font-weight: normal;
+}
 
 .highlighted-item {
     background-color: var(--active-element);
