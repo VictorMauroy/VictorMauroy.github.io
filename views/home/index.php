@@ -57,7 +57,7 @@
         <h2>Technical skills</h2>
         <div class ="left-skills skill-section">
             <h3 class="skill-title-left">Back-end</h3>
-            
+
             <div class="skill-item highlighted-item">
                 <img src="../../assets/logos/net-logo.png" alt=".NET logo" />
                 <span>.NET (C#)</span>
@@ -72,7 +72,7 @@
             </div>
             <div class="skill-item">
                 <img src="../../assets/logos/python-logo.png" alt="python logo" />
-                <span>Javascript</span>
+                <span>Python</span>
             </div>
             <div class="skill-item">
                 <img src="../../assets/logos/pgsql-logo.png" alt="PostgreSQL logo" />
@@ -85,11 +85,49 @@
         </div>
         
         <div class="right-skills skill-section">
+            <h3 class="skill-title-right">Front-end</h3>
 
+            <div class="skill-item ">
+                <img src="../../assets/logos/html5-logo.png" alt="html5 logo" />
+                <span>HTML 5</span>
+            </div>
+            <div class="skill-item ">
+                <img src="../../assets/logos/jquery-logo.png" alt="jquery logo" />
+                <span>Jquery</span>
+            </div>
+            <div class="skill-item ">
+                <img src="../../assets/logos/css3-logo.png" alt="css3 logo" />
+                <span>CSS 3</span>
+            </div>
+            <div class="skill-item ">
+                <img src="../../assets/logos/react-logo.png" alt="react logo" />
+                <span>React.js</span>
+            </div>
         </div>
 
         <div class="left-skills skill-section">
-        
+            <h3 class="skill-title-left">Miscellaneous</h3>
+
+            <div class="skill-item highlighted-item">
+                <img src="../../assets/logos/unity-logo.png" alt="Unity engine logo" />
+                <span>Unity Engine</span>
+            </div>
+            <div class="skill-item">
+                <img src="../../assets/logos/adobeXD-logo.png" alt="AdobeXD logo" />
+                <span>AdobeXD</span>
+            </div>
+            <div class="skill-item">
+                <img src="../../assets/logos/API.png" alt="API text logo" />
+                <span>API Development</span>
+            </div>
+            <div class="skill-item highlighted-item">
+                <img src="../../assets/logos/git-logo.png" alt="git logo" />
+                <span>Git</span>
+            </div>
+            <div class="skill-item">
+                <img src="../../assets/logos/ubuntu-logo.png" alt="ubuntu logo" />
+                <span>Ubuntu</span>
+            </div>
         </div>
     </section>
 

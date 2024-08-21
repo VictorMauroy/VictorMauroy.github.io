@@ -314,7 +314,7 @@ button {
 
 .skill-item {
     margin: 1.5em;
-    min-width: 300px;
+    min-width: 200px;
     display: flex;
     flex-direction: row;
     height: 80px;
@@ -323,7 +323,7 @@ button {
     .skill-item img {
         display: inline;
         object-fit: contain;
-        max-width: 120px;
+        max-width: 100px;
     }
 
     .skill-item span {
@@ -347,7 +347,7 @@ button {
 .skill-title-right {
     position: absolute;
     top: -42px;
-    right: -70px;
+    right: 70px;
     font-size: 2.2em;
     padding: 0.5em 1.5em;
     background-color: var(--background);
