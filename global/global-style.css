@@ -283,10 +283,15 @@ button {
         color: var(--high-contrast-text);
     }
 
-.left-skills {
+.skill-section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.left-skills {
+    width: 80%;
     
     margin: 2em 4em;
     border-left: solid var(--subtle-borders) 4px;
@@ -295,32 +300,41 @@ button {
 }
 
 .right-skills {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    float: right;
+    width: 80%;
+
+    margin: 4em 4em;
+    border-right: solid var(--subtle-borders) 4px;
+    border-top: solid var(--subtle-borders) 4px;
+    border-radius: 5px;
 }
 
 .skill-item {
     margin: 2em;
-    min-width: 200px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
 }
 
     .skill-item img {
         display: inline;
         object-fit: contain;
-        width: 60px;
-        height: 60px;
+        max-width: 120px;
     }
 
     .skill-item span {
         padding: 1em;
-        font-size: 1.3em;
+        font-size: 1.6em;
         text-align: center;
+        vertical-align: middle;
+        color: inherit;
     }
 
 .highlighted-item {
-    background-color: var(--solid-backgrounds);
-    color: var(--high-contrast-text);
+    background-color: var(--active-element);
+    color: var(--high-contrast-text) !important;
 }
 
 /*#endregion TechnicalSkills */
@@ -328,7 +342,7 @@ button {
 
 
 .highlighted-color {
-    color: var(--high-contrast-text);
+    color: var(--high-contrast-text) !important;
 }
 
 /*#endregion SpecificClasses_and_ids*/

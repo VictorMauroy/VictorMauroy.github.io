@@ -55,7 +55,7 @@
 
     <section id="skills">
         <h2>Technical skills</h2>
-        <div class ="left-skills">
+        <div class ="left-skills skill-section">
             <div class="skill-item highlighted-item">
                 <img src="../../assets/logos/net-logo.png" alt=".NET logo" />
                 <span>.NET (C#)</span>
@@ -82,11 +82,11 @@
             </div>
         </div>
         
-        <div class="right-skills">
+        <div class="right-skills skill-section">
 
         </div>
 
-        <div class="left-skills">
+        <div class="left-skills skill-section">
         
         </div>
     </section>
