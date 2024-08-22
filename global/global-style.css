@@ -313,6 +313,17 @@ button {
     border-radius: 5px;
 }
 
+@media only screen and (max-device-width: 1366px) {
+    .left-skills {
+        border-image: linear-gradient(to right, var(--subtle-borders) 80%, transparent 50%) 100% 1;
+    }
+    
+    .right-skills {
+        border-image: linear-gradient(to left, var(--subtle-borders) 80%, transparent 50%) 100% 1;
+    }
+}
+
+
 .skill-item {
     margin: 1.5em;
     min-width: 200px;
