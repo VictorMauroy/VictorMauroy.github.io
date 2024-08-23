@@ -25,20 +25,4 @@ $(function() { // Replacement of $(document).ready() call, which is deprecated
 
 //#endregion
     
-    // $(window).scroll(function () {
-    //     var currentScroll = $(this).scrollTop();
-    //     var $currentSection
-    //     $sections.each(function () {
-    //         var divPosition = $(this).offset().top;
-    //         if (divPosition - 100 < currentScroll) {
-    //             $currentSection = $(this);
-    //         }
-    //         if ($currentSection) {
-    //             var id = $currentSection.attr('id');
-    //             $('a').removeClass('active');
-    //             $("[href='#" + id + "']").addClass('active');
-    //         }
-    //     })
-
-    // });
 });
