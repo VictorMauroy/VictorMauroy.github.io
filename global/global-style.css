@@ -374,6 +374,9 @@ button {
 /*#endregion TechnicalSkills */
     
 
+li.current {
+    background-color: var(--active-element);
+}
 
 .highlighted-color {
     color: var(--high-contrast-text) !important;

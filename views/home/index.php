@@ -15,19 +15,18 @@
     ?>
 
 
-    <div id="banner">
+    <section id="banner">
         <div>
             <h1>Victor Mauroy</h1>
             <p>Web and Unity Developer</p>
             <a href="#about">Learn more</a>
         </div>
-    </div>
+    </section>
 
     <section id="about">
         <h2>About me</h2>
         <div> <!-- Flex with image on the right and text on the left-->
             <div id="profile-picture">
-<!-- Find a better profile picture -->
                 <img src="../../assets/images/profile/profile-picture-with-background.jpg" />
                 <button>
                     <img src="../../assets/logos/Download_Arrow.png" />
