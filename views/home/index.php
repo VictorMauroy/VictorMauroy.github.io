@@ -11,7 +11,7 @@
         readfile("../../components/navigation/navigation.php");
 
         // Insert the links at the right of the page
-        readfile("../../components/links/links.php");
+        // readfile("../../components/links/links.php");
     ?>
 
 
@@ -26,6 +26,7 @@
     <section id="about">
         <h2>About me</h2>
         <div> <!-- Flex with image on the right and text on the left-->
+
             <div id="profile-picture">
                 <img src="../../assets/images/profile/profile-picture-with-background.jpg" />
                 <button>
@@ -33,16 +34,26 @@
                     <p>Download resume</p>
                 </button>
             </div>
-            <p>
-<!-- Isn't there too much text ? 
-    I should add informations about current location and experience  -->
-                Hello ! My name is Victor Mauroy, a web developer who is also doing game development. 
-                <br>
-                <br>
-                Originally doing a lot of C# and .NET development, I want to expand my skills. Therefore, practicing more different back-end languages and trying multiple front-end technologies is my current objective on my free time.
-                <br>
-                <br>
-                Working as a software developer implies having a lot of things to learn and always staying up-to-date, that’s what I love : the never-ending path leading to complete mastery.</p>
+            <div id="presentation">
+                <p>
+                    <!-- Isn't there too much text ? 
+                        I should add informations about current location and experience  -->
+                    Hello ! My name is Victor Mauroy, a web developer who is also doing game development. 
+                    <br>
+                    <br>
+                    Originally doing a lot of C# and .NET development, I want to expand my skills. Therefore, practicing more different back-end languages and trying multiple front-end technologies is my current objective on my free time.
+                    <br>
+                    <br>
+                    Working as a software developer implies having a lot of things to learn and always staying up-to-date, that’s what I love : the never-ending path leading to complete mastery.
+                </p>
+                <hr>
+                <div class="links">
+                    <img class="github-link" src="../../assets/logos/github-logo.png" alt="Logo github" id="github-button"/>
+                    <img class="linkedin-link" src="../../assets/logos/linkedIn-logo.png" alt="Logo LinkedIn" id="linkedin-button"/>
+                    <img class="gmail-link" src="../../assets/logos/gmail-logo.png" alt="Logo gmail" id="gmail-button"/>
+                </div>
+            </div>
+
         </div>
     </section>
 
