@@ -3,7 +3,7 @@
 <nav id="navigation">
     <p>VMauroy</p>
     <ul>
-        <li class="nav-link"><a href="#banner">Home</a></li>
+        <li class="nav-link current"><a href="#banner">Home</a></li>
         <li class="nav-link"><a href="#about">About</a></li>
         <li class="nav-link"><a href="#skills">Skills</a></li>
         <li id="projects" class="nav-link"><a href="#projects">Projects</a></li>

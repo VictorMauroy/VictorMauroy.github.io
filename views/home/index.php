@@ -141,6 +141,56 @@
         </div>
     </section>
 
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are a few things that I've been working on, lately. There isn't always visual, since I am mainly doing back-end development.</p>
+
+        <div class="project-galery">
+            <div class="project-item">
+                <div class="item-case" style="background-image: url('../../assets/images/projects_icons/Piggybank-project-icon.png');">
+                    <p>
+                        Advanced website made with the .NET technologies.
+                        <br>
+                        Account system, complete database, users and articles management, role attribution, being able to order an article, etc.
+                    </p>
+                    <button class="github-project-button">
+                        <img src="../../assets/images/projects_icons/Github-logo-colored_projects.png" alt="github iccon" />
+                        <p>See more</p>
+                    </button>
+                </div>
+                <div class="item-details">
+                    <h4 style="color: var(--high-contrast-text)">Moneybox selling website</h4>
+                    <div>
+                        <img src="../../assets/logos/net-logo.png" alt=".NET Logo" />
+                        <img src="../../assets/logos/pgsql-logo.png" alt="PGSQL logo" />
+                    </div>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="item-case" style="background-image: url('../../assets/images/projects_icons/DQM-project-icon.png');">
+                    <p>
+                        There is currently no description.
+                    </p>
+                    <button class="github-project-button">
+                        <img src="../../assets/images/projects_icons/Github-logo-colored_projects.png" alt="github iccon" />
+                        <p>See more</p>
+                    </button>
+                </div>
+                <div class="item-details">
+                    <h4 style="color: var(--high-contrast-text)">Dragon Quest Monsters: <br> Synthesis Helper</h4>
+                    <div>
+                        <img src="../../assets/logos/net-logo.png" alt=".NET Logo" />
+                        <img src="../../assets/logos/pgsql-logo.png" alt="PGSQL logo" />
+                        <img src="../../assets/logos/react-logo.png" alt="React logo" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="games">
+        
+    </section>
 
     <?php
         // Insert the footer. 
