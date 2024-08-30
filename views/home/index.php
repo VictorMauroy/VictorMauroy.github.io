@@ -153,10 +153,10 @@
                         <br>
                         Account system, complete database, users and articles management, role attribution, being able to order an article, etc.
                     </p>
-                    <button class="github-project-button">
+                    <a href="https://github.com/VictorMauroy/MoneyBoxWebsite" class="github-project-button">
                         <img src="../../assets/images/projects_icons/Github-logo-colored_projects.png" alt="github iccon" />
                         <p>See more</p>
-                    </button>
+                    </a>
                 </div>
                 <div class="item-details">
                     <h4 style="color: var(--high-contrast-text)">Moneybox selling website</h4>
@@ -171,10 +171,10 @@
                     <p style="padding: 0.5em;">
                         There is currently no description.
                     </p>
-                    <button class="github-project-button">
+                    <a href="https://github.com/VictorMauroy/SynthesisHelper" class="github-project-button">
                         <img src="../../assets/images/projects_icons/Github-logo-colored_projects.png" alt="github iccon" />
                         <p>See more</p>
-                    </button>
+                    </a>
                 </div>
                 <div class="item-details">
                     <h4 style="color: var(--high-contrast-text)">Dragon Quest Monsters: <br> Synthesis Helper</h4>
@@ -190,10 +190,10 @@
                     <p style="padding: 0.5em;">
                         There is currently no description.
                     </p>
-                    <button class="github-project-button">
+                    <a href="https://github.com/VictorMauroy/Dev_Portfolio" class="github-project-button">
                         <img src="../../assets/images/projects_icons/Github-logo-colored_projects.png" alt="github iccon" />
                         <p>See more</p>
-                    </button>
+                    </a>
                 </div>
                 <div class="item-details">
                     <h4 style="color: var(--high-contrast-text)">Portfolio (current website)</h4>

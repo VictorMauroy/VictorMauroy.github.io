@@ -558,13 +558,13 @@ button {
     height: 50px;
     position: absolute;
     bottom: 15px;
-    right: 20%;
+    right: 25%;
     margin-left: -50%;
     z-index: 10;
+    text-decoration: none;
 
     &:hover{
         background-color: transparent;
-        border: none;
     }
 }
 
