@@ -25,4 +25,28 @@ $(function() { // Replacement of $(document).ready() call, which is deprecated
 
 //#endregion
     
+//#region Projects_Cases
+
+    $("#moneybox-img").children().hide();
+    $("#moneybox-img").on("mouseover", ()=> {
+        $("#moneybox-img").children().show();
+    }).on("mouseleave", () => {
+        $("#moneybox-img").children().hide();
+    });
+
+    $("#DQMJ-img").children().hide();
+    $("#DQMJ-img").on("mouseover", ()=> {
+        $("#DQMJ-img").children().show();
+    }).on("mouseleave", () => {
+        $("#DQMJ-img").children().hide();
+    });
+
+    $("#portfolio-img").children().hide();
+    $("#portfolio-img").on("mouseover", ()=> {
+        $("#portfolio-img").children().show();
+    }).on("mouseleave", () => {
+        $("#portfolio-img").children().hide();
+    });
+
+//#endregion
 });

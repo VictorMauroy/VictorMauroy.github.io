@@ -464,6 +464,11 @@ button {
     text-align: center;
     margin: 1em;
     position: relative;
+    border: solid var(--subtle-borders) 4px;
+
+    &:hover {
+        border: solid var(--ui-border-focus) 4px;
+    }
 }
 
 .item-case p {
@@ -550,9 +555,9 @@ button {
 .github-project-button {
     background-color: transparent;
     border: none;
-    height: 70px;
+    height: 50px;
     position: absolute;
-    bottom: 0;
+    bottom: 15px;
     right: 20%;
     margin-left: -50%;
     z-index: 10;
@@ -565,7 +570,7 @@ button {
 
     .github-project-button p {
         margin-left: 0.7em;
-        transform: translateY(-80%);
+        transform: translateY(-60%);
         display: inline-block;
         font-weight: bold;
         color: var(--high-contrast-text);
@@ -573,6 +578,7 @@ button {
 
     .github-project-button img {
         display: inline-block;
+        height: 45px;
     }
 
 
