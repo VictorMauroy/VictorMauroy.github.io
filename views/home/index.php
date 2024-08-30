@@ -185,6 +185,26 @@
                     </div>
                 </div>
             </div>
+            <div class="project-item">
+                <div class="item-case" id="portfolio-img">
+                    <p style="padding: 0.5em;">
+                        There is currently no description.
+                    </p>
+                    <button class="github-project-button">
+                        <img src="../../assets/images/projects_icons/Github-logo-colored_projects.png" alt="github iccon" />
+                        <p>See more</p>
+                    </button>
+                </div>
+                <div class="item-details">
+                    <h4 style="color: var(--high-contrast-text)">Portfolio (current website)</h4>
+                    <div>
+                        <img src="../../assets/logos/html5-logo.png" alt="html5 Logo" />
+                        <img src="../../assets/logos/css3-logo.png" alt="css3 logo" />
+                        <img src="../../assets/logos/php-logo.png" alt="php logo" />
+                        <img src="../../assets/logos/jquery-logo.png" alt="Jquery logo" />
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 

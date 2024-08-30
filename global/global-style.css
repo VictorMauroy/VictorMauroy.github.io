@@ -484,10 +484,9 @@ button {
         background-position: center;
 }
 
-#moneybox-img:hover:before {
-    opacity: 0.20;
-}
-
+    #moneybox-img:hover:before {
+        opacity: 0.20;
+    }
 
 #DQMJ-img::before {
     content: "";
@@ -502,13 +501,26 @@ button {
     background-position: center;
 }
 
-#DQMJ-img:hover:before {
-    opacity: 0.20;
+    #DQMJ-img:hover:before {
+        opacity: 0.20;
+    }
+
+#portfolio-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+    background-image: url("../assets/images/projects_icons/portfolio-project-icon.png");
+    background-size: cover;        
+    background-position: center;
 }
 
-#portfolio-img {
-
-}
+    #portfolio-img:hover:before {
+        opacity: 0.20;
+    }
 
 .item-details {
     text-align: center;
@@ -518,6 +530,10 @@ button {
     .item-details h4 {
         margin-bottom: 1em;
         font-size: 20px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .item-details div{
