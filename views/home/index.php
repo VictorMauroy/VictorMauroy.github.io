@@ -148,8 +148,9 @@
         <div class="project-galery">
             <div class="project-item">
                 <div class="item-case" id="moneybox-img">
-                    <p style="padding: 0.5em;">
+                    <p style="padding: 0.8em 0.5em">
                         Advanced website made with the .NET technologies.
+                        <br>
                         <br>
                         Account system, complete database, users and articles management, role attribution, being able to order an article, etc.
                     </p>
@@ -168,8 +169,11 @@
             </div>
             <div class="project-item">
                 <div class="item-case" id="DQMJ-img">
-                    <p style="padding: 0.5em;">
-                        There is currently no description.
+                    <p style="padding: 0.8em 0.5em">
+                        That project combine an API made with .NET technologies and a React project to show the retrieved informations.
+                        <br><br>
+                        Peoples could access the API to obtain informations that could greatly help to make other websites dedicated to the game. 
+                        The React project could also feed visuals if they want to exchange with a basic website. 
                     </p>
                     <a href="https://github.com/VictorMauroy/SynthesisHelper" class="github-project-button">
                         <img src="../../assets/images/projects_icons/Github-logo-colored_projects.png" alt="github iccon" />
@@ -187,7 +191,7 @@
             </div>
             <div class="project-item">
                 <div class="item-case" id="portfolio-img">
-                    <p style="padding: 0.5em;">
+                    <p style="padding: 0.8em 0.5em">
                         There is currently no description.
                     </p>
                     <a href="https://github.com/VictorMauroy/Dev_Portfolio" class="github-project-button">
