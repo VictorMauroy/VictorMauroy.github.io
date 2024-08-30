@@ -147,8 +147,8 @@
 
         <div class="project-galery">
             <div class="project-item">
-                <div class="item-case" style="background-image: url('../../assets/images/projects_icons/Piggybank-project-icon.png');">
-                    <p>
+                <div class="item-case" id="moneybox-img">
+                    <p style="padding: 0.5em;">
                         Advanced website made with the .NET technologies.
                         <br>
                         Account system, complete database, users and articles management, role attribution, being able to order an article, etc.
@@ -167,8 +167,8 @@
                 </div>
             </div>
             <div class="project-item">
-                <div class="item-case" style="background-image: url('../../assets/images/projects_icons/DQM-project-icon.png');">
-                    <p>
+                <div class="item-case" id="DQMJ-img">
+                    <p style="padding: 0.5em;">
                         There is currently no description.
                     </p>
                     <button class="github-project-button">

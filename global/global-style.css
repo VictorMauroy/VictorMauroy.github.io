@@ -461,15 +461,53 @@ button {
 .item-case {
     width: 300px;
     height: 250px;
-    background-size: cover;
-    background-position: center;
     text-align: center;
     margin: 1em;
     position: relative;
+}
 
-    &:hover {
-        opacity: 0.3;
-    }
+.item-case p {
+    z-index: 10;
+    position: relative;
+}
+
+#moneybox-img::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+
+        background-image: url("../assets/images/projects_icons/Piggybank-project-icon.png");
+        background-size: cover;        
+        background-position: center;
+}
+
+#moneybox-img:hover:before {
+    opacity: 0.20;
+}
+
+
+#DQMJ-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+    background-image: url("../assets/images/projects_icons/DQM-project-icon.png");
+    background-size: cover;        
+    background-position: center;
+}
+
+#DQMJ-img:hover:before {
+    opacity: 0.20;
+}
+
+#portfolio-img {
+
 }
 
 .item-details {
@@ -501,6 +539,7 @@ button {
     bottom: 0;
     right: 20%;
     margin-left: -50%;
+    z-index: 10;
 
     &:hover{
         background-color: transparent;
