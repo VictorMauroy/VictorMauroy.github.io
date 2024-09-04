@@ -145,70 +145,122 @@
         <h2>Projects</h2>
         <p>Here are a few things that I've been working on, lately. There isn't always visual, since I am mainly doing back-end development.</p>
 
-        <div class="project-galery">
-            <div class="project-item">
-                <div class="item-case" id="moneybox-img">
-                    <p style="padding: 0.8em 0.5em">
-                        Advanced website made with the .NET technologies.
-                        <br>
-                        <br>
-                        Account system, complete database, users and articles management, role attribution, being able to order an article, etc.
-                    </p>
-                    <a href="https://github.com/VictorMauroy/MoneyBoxWebsite" class="github-project-button">
-                        <img src="../../assets/images/projects_icons/Github-logo-colored_projects.png" alt="github iccon" />
-                        <p>See more</p>
-                    </a>
-                </div>
-                <div class="item-details">
-                    <h4 style="color: var(--high-contrast-text)">Moneybox selling website</h4>
-                    <div>
-                        <img src="../../assets/logos/net-logo.png" alt=".NET Logo" />
-                        <img src="../../assets/logos/pgsql-logo.png" alt="PGSQL logo" />
+        <div class="project-slider">
+            <div class="project-wrapper">
+                <div class="project-item">
+                    <div class="item-case" id="moneybox-img">
+                        <p style="padding: 0.8em 0.5em">
+                            Advanced website made with the .NET technologies.
+                            <br>
+                            <br>
+                            Account system, complete database, users and articles management, role attribution, being able to order an article, etc.
+                        </p>
+                        <a href="https://github.com/VictorMauroy/MoneyBoxWebsite" class="github-project-button">
+                            <img src="../../assets/images/projects_icons/Github-logo-colored_projects.png" alt="github iccon" />
+                            <p>See more</p>
+                        </a>
+                    </div>
+                    <div class="item-details">
+                        <h4 style="color: var(--high-contrast-text)">Moneybox selling website</h4>
+                        <div>
+                            <img src="../../assets/logos/net-logo.png" alt=".NET Logo" />
+                            <img src="../../assets/logos/pgsql-logo.png" alt="PGSQL logo" />
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="project-item">
-                <div class="item-case" id="DQMJ-img">
-                    <p style="padding: 0.8em 0.5em">
-                        That project combine an API made with .NET technologies and a React project to show the retrieved informations.
-                        <br><br>
-                        Peoples could access the API to obtain informations that could greatly help to make other websites dedicated to the game. 
-                        The React project could also feed visuals if they want to exchange with a basic website. 
-                    </p>
-                    <a href="https://github.com/VictorMauroy/SynthesisHelper" class="github-project-button">
-                        <img src="../../assets/images/projects_icons/Github-logo-colored_projects.png" alt="github iccon" />
-                        <p>See more</p>
-                    </a>
-                </div>
-                <div class="item-details">
-                    <h4 style="color: var(--high-contrast-text)">Dragon Quest Monsters: <br> Synthesis Helper</h4>
-                    <div>
-                        <img src="../../assets/logos/net-logo.png" alt=".NET Logo" />
-                        <img src="../../assets/logos/pgsql-logo.png" alt="PGSQL logo" />
-                        <img src="../../assets/logos/react-logo.png" alt="React logo" />
+    
+                <div class="project-item">
+                    <div class="item-case" id="DQMJ-img">
+                        <p style="padding: 0.8em 0.5em">
+                            That project combine an API made with .NET technologies and a React project to show the retrieved informations.
+                            <br><br>
+                            Peoples could access the API to obtain informations that could greatly help to make other websites dedicated to the game. 
+                            The React project could also feed visuals if they want to exchange with a basic website. 
+                        </p>
+                        <a href="https://github.com/VictorMauroy/SynthesisHelper" class="github-project-button">
+                            <img src="../../assets/images/projects_icons/Github-logo-colored_projects.png" alt="github iccon" />
+                            <p>See more</p>
+                        </a>
+                    </div>
+                    <div class="item-details">
+                        <h4 style="color: var(--high-contrast-text)">Dragon Quest Monsters: <br> Synthesis Helper</h4>
+                        <div>
+                            <img src="../../assets/logos/net-logo.png" alt=".NET Logo" />
+                            <img src="../../assets/logos/pgsql-logo.png" alt="PGSQL logo" />
+                            <img src="../../assets/logos/react-logo.png" alt="React logo" />
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="project-item">
-                <div class="item-case" id="portfolio-img">
-                    <p style="padding: 0.8em 0.5em">
-                        There is currently no description.
-                    </p>
-                    <a href="https://github.com/VictorMauroy/Dev_Portfolio" class="github-project-button">
-                        <img src="../../assets/images/projects_icons/Github-logo-colored_projects.png" alt="github iccon" />
-                        <p>See more</p>
-                    </a>
-                </div>
-                <div class="item-details">
-                    <h4 style="color: var(--high-contrast-text)">Portfolio (current website)</h4>
-                    <div>
-                        <img src="../../assets/logos/html5-logo.png" alt="html5 Logo" />
-                        <img src="../../assets/logos/css3-logo.png" alt="css3 logo" />
-                        <img src="../../assets/logos/php-logo.png" alt="php logo" />
-                        <img src="../../assets/logos/jquery-logo.png" alt="Jquery logo" />
+    
+                <div class="project-item">
+                    <div class="item-case" id="portfolio-img">
+                        <p style="padding: 0.8em 0.5em">
+                            There is currently no description.
+                        </p>
+                        <a href="https://github.com/VictorMauroy/Dev_Portfolio" class="github-project-button">
+                            <img src="../../assets/images/projects_icons/Github-logo-colored_projects.png" alt="github iccon" />
+                            <p>See more</p>
+                        </a>
+                    </div>
+                    <div class="item-details">
+                        <h4 style="color: var(--high-contrast-text)">Portfolio (current website)</h4>
+                        <div>
+                            <img src="../../assets/logos/html5-logo.png" alt="html5 Logo" />
+                            <img src="../../assets/logos/css3-logo.png" alt="css3 logo" />
+                            <img src="../../assets/logos/php-logo.png" alt="php logo" />
+                            <img src="../../assets/logos/jquery-logo.png" alt="Jquery logo" />
+                        </div>
                     </div>
                 </div>
-            </div>
+    
+                <div class="project-item">
+                    <div class="item-case" id="portfolio-img">
+                        <p style="padding: 0.8em 0.5em">
+                            There is currently no description.
+                        </p>
+                        <a href="https://github.com/VictorMauroy/Dev_Portfolio" class="github-project-button">
+                            <img src="../../assets/images/projects_icons/Github-logo-colored_projects.png" alt="github iccon" />
+                            <p>See more</p>
+                        </a>
+                    </div>
+                    <div class="item-details">
+                        <h4 style="color: var(--high-contrast-text)">Portfolio (current website)</h4>
+                        <div>
+                            <img src="../../assets/logos/html5-logo.png" alt="html5 Logo" />
+                            <img src="../../assets/logos/css3-logo.png" alt="css3 logo" />
+                            <img src="../../assets/logos/php-logo.png" alt="php logo" />
+                            <img src="../../assets/logos/jquery-logo.png" alt="Jquery logo" />
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="project-item">
+                    <div class="item-case" id="portfolio-img">
+                        <p style="padding: 0.8em 0.5em">
+                            There is currently no description.
+                        </p>
+                        <a href="https://github.com/VictorMauroy/Dev_Portfolio" class="github-project-button">
+                            <img src="../../assets/images/projects_icons/Github-logo-colored_projects.png" alt="github iccon" />
+                            <p>See more</p>
+                        </a>
+                    </div>
+                    <div class="item-details">
+                        <h4 style="color: var(--high-contrast-text)">Portfolio (current website)</h4>
+                        <div>
+                            <img src="../../assets/logos/html5-logo.png" alt="html5 Logo" />
+                            <img src="../../assets/logos/css3-logo.png" alt="css3 logo" />
+                            <img src="../../assets/logos/php-logo.png" alt="php logo" />
+                            <img src="../../assets/logos/jquery-logo.png" alt="Jquery logo" />
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- End of project wrapper -->
+
+        </div> <!-- End of project galery -->
+
+        <div class="project-controls">
+            <button class="previous-project"></button>
+            <button class="next-project"></button>
         </div>
     </section>
 

@@ -16,7 +16,6 @@ $(function() { // Replacement of $(document).ready() call, which is deprecated
         })
 
         if($currentSection) { // If there is a current section
-            console.log($currentSection);
             var $sectionId = $currentSection.attr("id");
             $('.current').removeClass('current');
             $("[href='#" + $sectionId + "']").parent().addClass('current');
@@ -49,4 +48,35 @@ $(function() { // Replacement of $(document).ready() call, which is deprecated
     });
 
 //#endregion
+
+//#region Projects_Slider
+    var $totalProjects = $(".project-item").length;
+    var projectsPerPage = 3; // Should be updated depending of the screen size, in addition to the .project-item class.
+    var currentPage = 0;
+
+    console.log("Count of childrens inside $totalProjects: " + $totalProjects);
+
+    function updateProjects() {
+        var offset = -currentPage * (100 / projectsPerPage);
+        $(".project-wrapper").css("transform", "translateX(" + offset + "%)");
+    }
+
+    $(".previous-project").on("click", function() {
+        console.log("Previous");
+        if (currentPage > 0) {
+            currentPage--;
+            updateProjects();
+        }
+    });
+
+    $(".next-project").on("click", function() {
+        console.log("Next");
+        if (currentPage < Math.ceil($totalProjects / projectsPerPage) - 1) {
+            currentPage++;
+            updateProjects();
+        }
+    });
+
+//#endregion
+
 });
