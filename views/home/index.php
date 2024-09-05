@@ -259,8 +259,8 @@
         </div> <!-- End of project galery -->
 
         <div class="project-controls">
-            <button class="previous-project"></button>
-            <button class="next-project"></button>
+            <button class="previous-project">Previous</button>
+            <button class="next-project">Next</button>
         </div>
     </section>
 

@@ -71,7 +71,7 @@ $(function() { // Replacement of $(document).ready() call, which is deprecated
 
     $(".next-project").on("click", function() {
         console.log("Next");
-        if (currentPage < Math.ceil($totalProjects / projectsPerPage) - 1) {
+        if (currentPage < projectsPerPage - 1) {
             currentPage++;
             updateProjects();
         }
