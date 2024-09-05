@@ -51,12 +51,21 @@ $(function() { // Replacement of $(document).ready() call, which is deprecated
 
 //#region Projects_Slider
     var $totalProjects = $(".project-item").length;
-    var projectsPerPage = 3; // Should be updated depending of the screen size, in addition to the .project-item class.
+    var projectsPerPage;
     var currentPage = 0;
 
-    console.log("Count of childrens inside $totalProjects: " + $totalProjects);
+    var screenWidth = $(window).width();
+                
+    if (screenWidth > 1200) {
+        projectsPerPage = 3; // For large screens (desktop)
+    } else if (screenWidth > 900) {
+        projectsPerPage = 2; // For tablets
+    } else {
+        projectsPerPage = 1; // For small screens (mobile)
+    }
 
     function updateProjects() {
+
         var offset = -currentPage * (100 / projectsPerPage);
         $(".project-wrapper").css("transform", "translateX(" + offset + "%)");
     }
