@@ -471,6 +471,20 @@ button {
     padding: 2em;
 }
 
+@media (max-device-width: 1200px) {
+    .project-item {
+        min-width: 50%;
+    }
+}
+
+
+@media (max-device-width: 900px) {
+    .project-item {
+        min-width: 100%;
+    }
+}
+
+
 .item-case {
     width: 100%;
     height: 250px;
@@ -489,7 +503,7 @@ button {
 
 .item-case p {
     z-index: 10;
-    font-size: 14px !important;
+    font-size: 1.2vw !important;
     position: relative;
 }
 
@@ -555,7 +569,7 @@ button {
 
     .item-details h4 {
         margin-bottom: 1em;
-        font-size: 20px;
+        font-size: 1.6vw;
         height: 45px;
         display: flex;
         align-items: center;
