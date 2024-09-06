@@ -623,12 +623,28 @@ button {
         margin: 0.5em;
         cursor: pointer;
         border-radius: 15px;
+        display: flex;
+        align-items: center;
+    }
+
+    .project-controls button img {
+        width: 15px;
+        height: 20px;
     }
 
     .project-controls .active {
         background-color: var(--active-element);
         border-color: var(--ui-hovered-borders);
     }
+
+.next-project {
+    transform: rotate(180deg);
+    padding: 0.2em 0.3em 0.2em 0.2em;
+}
+
+.previous-project {
+    padding: 0.2em 0.2em 0.2em 0.3em;
+}
 
 
 /*#endregion Projects */
