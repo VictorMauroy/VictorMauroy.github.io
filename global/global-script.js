@@ -53,25 +53,28 @@ $(function() { // Replacement of $(document).ready() call, which is deprecated
     var $totalProjects = $(".project-item").length;
     var projectsPerPage;
     var currentPage = 0;
+    
+    function updateSliderWidth() {
 
-    var screenWidth = $(window).width();
-                
-    if (screenWidth > 1200) {
-        projectsPerPage = 3; // For large screens (desktop)
-    } else if (screenWidth > 900) {
-        projectsPerPage = 2; // For tablets
-    } else {
-        projectsPerPage = 1; // For small screens (mobile)
+        var screenWidth = $(window).width();
+
+        if (screenWidth > 1200) {
+            projectsPerPage = 3; // For large screens (desktop)
+        } else if (screenWidth >= 900) {
+            projectsPerPage = 2; // For tablets
+        } else {
+            projectsPerPage = 1; // For small screens (mobile)
+        }
+
+        updateProjects();
     }
 
     function updateProjects() {
-
         var offset = -currentPage * (100 / projectsPerPage);
         $(".project-wrapper").css("transform", "translateX(" + offset + "%)");
     }
 
     $(".previous-project").on("click", function() {
-        console.log("Previous");
         if (currentPage > 0) {
             currentPage--;
             updateProjects();
@@ -79,11 +82,19 @@ $(function() { // Replacement of $(document).ready() call, which is deprecated
     });
 
     $(".next-project").on("click", function() {
-        console.log("Next");
-        if (currentPage < projectsPerPage - 1) {
+        if (currentPage < $totalProjects - projectsPerPage) {
             currentPage++;
             updateProjects();
         }
+    });
+
+    updateSliderWidth();
+
+    // Update the projectsPerPage when the window is resized
+    $(window).on("resize", function() {
+        console.log(projectsPerPage);
+        updateSliderWidth();
+        currentPage = 0;
     });
 
 //#endregion

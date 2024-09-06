@@ -471,19 +471,17 @@ button {
     padding: 2em;
 }
 
-@media (max-device-width: 1200px) {
+@media screen and (max-device-width: 1200px) {
     .project-item {
         min-width: 50%;
     }
 }
 
-
-@media (max-device-width: 900px) {
+@media screen and (max-device-width: 900px) {
     .project-item {
         min-width: 100%;
     }
 }
-
 
 .item-case {
     width: 100%;
