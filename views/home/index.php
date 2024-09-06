@@ -259,8 +259,8 @@
         </div> <!-- End of project galery -->
 
         <div class="project-controls">
-            <button><img class="previous-project" src="../../assets/images/projects_icons/Arrow.png" alt="Previous"></button>
-            <button><img class="next-project" src="../../assets/images/projects_icons/Arrow.png" alt="Previous"></button>
+            <button class="previous-project"><img  src="../../assets/images/projects_icons/Arrow.png" alt="Previous"></button>
+            <button class="next-project"><img src="../../assets/images/projects_icons/Arrow.png" alt="Previous"></button>
         </div>
     </section>
 
