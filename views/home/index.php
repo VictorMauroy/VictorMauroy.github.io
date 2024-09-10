@@ -265,7 +265,41 @@
     </section>
 
     <section id="games">
-        
+        <h2>Games</h2>
+        <p>I also like making video games! Here are a few ones that I really loved to do :)</p>
+
+        <div class="project-slider">
+            <div class="project-wrapper">
+                <div class="project-item">
+                    <div class="item-case" id="moneybox-img">
+                        <p style="padding: 0.8em 0.5em">
+                            Advanced website made with the .NET technologies.
+                            <br>
+                            <br>
+                            Account system, complete database, users and articles management, role attribution, being able to order an article, etc.
+                        </p>
+                        <a href="https://github.com/VictorMauroy/MoneyBoxWebsite" class="github-project-button">
+                            <img src="../../assets/images/projects_icons/Github-logo-colored_projects.png" alt="github iccon" />
+                            <p>See more</p>
+                        </a>
+                    </div>
+                    <div class="item-details">
+                        <h4 style="color: var(--high-contrast-text)">Moneybox selling website</h4>
+                        <div>
+                            <img src="../../assets/logos/net-logo.png" alt=".NET Logo" />
+                            <img src="../../assets/logos/pgsql-logo.png" alt="PGSQL logo" />
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- End of project wrapper -->
+
+        </div> <!-- End of project galery -->
+
+        <div class="project-controls">
+            <button class="previous-project"><img  src="../../assets/images/projects_icons/Arrow.png" alt="Previous"></button>
+            <button class="next-project"><img src="../../assets/images/projects_icons/Arrow.png" alt="Previous"></button>
+        </div>
     </section>
 
     <?php
