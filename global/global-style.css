@@ -225,7 +225,7 @@ button {
     justify-content: center;
 }
 
-    .links img {
+    .links div {
         padding: 0.5em;
         margin: 1em 2em;
         width: 50px;
@@ -233,27 +233,26 @@ button {
         /* Add something to avoid rectangle images to wrap themselves*/
         object-fit: contain;
         cursor: pointer;
+        background-color: var(--solid-backgrounds);
+        
+        &:hover {
+            background-color: var(--hovered-solid-backgrounds);
+        }
     }
 
 .github-link {
-    content:url("../assets/logos/colored-logos/Github-logo\ colored.png");
-    &:hover {
-        content:url("../assets/logos/colored-logos/Github-logo\ hovered.png");
-    }
+    mask:url("../assets/logos/colored-logos/Github-logo\ colored.png") no-repeat center;
+    mask-size: contain;
 }
 
 .linkedin-link {
-    content:url("../assets/logos/colored-logos/LinkedIn-logo\ colored.png");
-    &:hover {
-        content:url("../assets/logos/colored-logos/LinkedIn-logo\ hovered.png");
-    }
+    mask:url("../assets/logos/colored-logos/LinkedIn-logo\ colored.png") no-repeat center;
+    mask-size: contain;
 }
 
 .gmail-link {
-    content:url("../assets/logos/colored-logos/gmail-logo\ colored.png");
-    &:hover {
-        content:url("../assets/logos/colored-logos/gmail-logo\ hovered.png");
-    }
+    mask:url("../assets/logos/colored-logos/gmail-logo\ colored.png") no-repeat center;
+    mask-size: contain;
 }
 
 

@@ -48,9 +48,11 @@
                 </p>
                 <hr>
                 <div class="links">
-                    <img class="github-link" src="../../assets/logos/github-logo.png" alt="Logo github" id="github-button"/>
-                    <img class="linkedin-link" src="../../assets/logos/linkedIn-logo.png" alt="Logo LinkedIn" id="linkedin-button"/>
-                    <img class="gmail-link" src="../../assets/logos/gmail-logo.png" alt="Logo gmail" id="gmail-button"/>
+                    <div class="github-link" id="github-button">
+                    </div>
+                    <div class="linkedin-link"  id="linkedin-button">
+                    </div>
+                    <div class="gmail-link" id="gmail-button"></div>
                 </div>
             </div>
 
@@ -256,7 +258,7 @@
 
             </div> <!-- End of project wrapper -->
 
-        </div> <!-- End of project galery -->
+        </div> <!-- End of project slider -->
 
         <div class="project-controls">
             <button class="previous-project"><img  src="../../assets/images/projects_icons/Arrow.png" alt="Previous"></button>
@@ -292,9 +294,9 @@
                     </div>
                 </div>
 
-            </div> <!-- End of project wrapper -->
+            </div> <!-- End of game wrapper -->
 
-        </div> <!-- End of project galery -->
+        </div> <!-- End of game slider -->
 
         <div class="project-controls">
             <button class="previous-game"><img  src="../../assets/images/projects_icons/Arrow.png" alt="Previous"></button>
