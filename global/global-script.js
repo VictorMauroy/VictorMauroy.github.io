@@ -106,10 +106,58 @@ $(function() { // Replacement of $(document).ready() call, which is deprecated
 
     // Update the projectsPerPage when the window is resized
     $(window).on("resize", function() {
-        console.log(projectsPerPage);
         updateSliderWidth();
         currentPage = 0;
     });
+
+//#endregion
+
+//#region Games_Slider
+var $totalGames = $(".game-item").length;
+var gamesPerPage;
+var currentGamePage = 0;
+
+function updateGameSliderWidth() {
+
+    var screenWidth = $(window).width();
+
+    if (screenWidth > 1200) {
+        gamesPerPage = 3; // For large screens (desktop)
+    } else if (screenWidth >= 900) {
+        gamesPerPage = 2; // For tablets
+    } else {
+        gamesPerPage = 1; // For small screens (mobile)
+    }
+
+    updateGames();
+}
+
+function updateGames() {
+    var offset = -currentGamePage * (100 / gamesPerPage);
+    $(".game-wrapper").css("transform", "translateX(" + offset + "%)");
+}
+
+$(".previous-game").on("click", function() {
+    if (currentGamePage > 0) {
+        currentGamePage--;
+        updateGames();
+    }
+});
+
+$(".next-game").on("click", function() {
+    if (currentGamePage < $totalGames - gamesPerPage) {
+        currentGamePage++;
+        updateGames();
+    }
+});
+
+updateGameSliderWidth();
+
+// Update the projectsPerPage when the window is resized
+$(window).on("resize", function() {
+    updateGameSliderWidth();
+    currentGamePage = 0;
+});
 
 //#endregion
 
