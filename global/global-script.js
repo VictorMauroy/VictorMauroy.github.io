@@ -46,6 +46,13 @@ $(function() { // Replacement of $(document).ready() call, which is deprecated
     }).on("mouseleave", () => {
         $("#portfolio-img").children().hide();
     });
+    
+    $("#genetic-algo-img").children().hide();
+    $("#genetic-algo-img").on("mouseover", ()=> {
+        $("#genetic-algo-img").children().show();
+    }).on("mouseleave", () => {
+        $("#genetic-algo-img").children().hide();
+    });
 
 //#endregion
 

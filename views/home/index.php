@@ -172,10 +172,9 @@
                 <div class="project-item">
                     <div class="item-case" id="DQMJ-img">
                         <p style="padding: 0.8em 0.5em">
-                            That project combine an API made with .NET technologies and a React project to show the retrieved informations.
+                            A .NET API that communicate with a React project. 
                             <br><br>
-                            Peoples could access the API to obtain informations that could greatly help to make other websites dedicated to the game. 
-                            The React project could also feed visuals if they want to exchange with a basic website. 
+                            The purpose of the latter is to create a website containing solutions about the game. Such as the synthesis of monsters and other useful tools.
                         </p>
                         <a href="https://github.com/VictorMauroy/SynthesisHelper" class="github-project-button">
                             <img src="../../assets/images/projects_icons/Github-logo-colored_projects.png" alt="github iccon" />
@@ -195,7 +194,9 @@
                 <div class="project-item">
                     <div class="item-case" id="portfolio-img">
                         <p style="padding: 0.8em 0.5em">
-                            There is currently no description.
+                            My portfolio and a training project for vanilla web development. 
+                            <br><br>
+                            No import of libraries except for jquery. As a back-end dev, I was lacking of front knowledge.
                         </p>
                         <a href="https://github.com/VictorMauroy/Dev_Portfolio" class="github-project-button">
                             <img src="../../assets/images/projects_icons/Github-logo-colored_projects.png" alt="github iccon" />
@@ -212,11 +213,36 @@
                         </div>
                     </div>
                 </div>
-    
+
+                <div class="project-item">
+                    <div class="item-case" id="genetic-algo-img">
+                        <p style="padding: 0.8em 0.5em">
+                        Using genetic algorithm to find a path with python.
+                            <br><br>
+                            Be able to analyze a huge list of points, return a very good path and make crossbreed and mutations.
+                        </p>
+                        <a href="https://github.com/VictorMauroy/Dev_Portfolio" class="github-project-button">
+                            <img src="../../assets/images/projects_icons/Github-logo-colored_projects.png" alt="github iccon" />
+                            <p>See more</p>
+                        </a>
+                    </div>
+                    <div class="item-details">
+                        <h4 style="color: var(--high-contrast-text)">Genetic algorithm</h4>
+                        <div>
+                            <img src="../../assets/logos/html5-logo.png" alt="html5 Logo" />
+                            <img src="../../assets/logos/css3-logo.png" alt="css3 logo" />
+                            <img src="../../assets/logos/php-logo.png" alt="php logo" />
+                            <img src="../../assets/logos/jquery-logo.png" alt="Jquery logo" />
+                        </div>
+                    </div>
+                </div>
+
                 <div class="project-item">
                     <div class="item-case" id="portfolio-img">
                         <p style="padding: 0.8em 0.5em">
-                            There is currently no description.
+                            My portfolio and a training project for vanilla web development. 
+                            <br><br>
+                            No import of libraries except for jquery. As a back-end dev, I was lacking of front knowledge.
                         </p>
                         <a href="https://github.com/VictorMauroy/Dev_Portfolio" class="github-project-button">
                             <img src="../../assets/images/projects_icons/Github-logo-colored_projects.png" alt="github iccon" />
@@ -233,27 +259,7 @@
                         </div>
                     </div>
                 </div>
-    
-                <div class="project-item">
-                    <div class="item-case" id="portfolio-img">
-                        <p style="padding: 0.8em 0.5em">
-                            There is currently no description.
-                        </p>
-                        <a href="https://github.com/VictorMauroy/Dev_Portfolio" class="github-project-button">
-                            <img src="../../assets/images/projects_icons/Github-logo-colored_projects.png" alt="github iccon" />
-                            <p>See more</p>
-                        </a>
-                    </div>
-                    <div class="item-details">
-                        <h4 style="color: var(--high-contrast-text)">Portfolio (current website)</h4>
-                        <div>
-                            <img src="../../assets/logos/html5-logo.png" alt="html5 Logo" />
-                            <img src="../../assets/logos/css3-logo.png" alt="css3 logo" />
-                            <img src="../../assets/logos/php-logo.png" alt="php logo" />
-                            <img src="../../assets/logos/jquery-logo.png" alt="Jquery logo" />
-                        </div>
-                    </div>
-                </div>
+
             </div> <!-- End of project wrapper -->
 
         </div> <!-- End of project galery -->

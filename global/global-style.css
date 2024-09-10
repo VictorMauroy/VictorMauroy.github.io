@@ -557,6 +557,23 @@ button {
         opacity: 0.20;
     }
 
+#genetic-algo-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+    background-image: url("../assets/images/projects_icons/dna-8925103_1280_by_AcatXIo.png");
+    background-size: cover;
+    background-position: center;
+}
+
+    #genetic-algo-img:hover:before {
+        opacity: 0.20;
+    }
+
 .item-details {
     text-align: center;
     -webkit-box-sizing: border-box;
@@ -588,7 +605,7 @@ button {
 .github-project-button {
     background-color: transparent;
     border: none;
-    height: 50px;
+    height: 40px;
     position: absolute;
     bottom: 15px;
     z-index: 10;
@@ -601,7 +618,7 @@ button {
 
     .github-project-button p {
         margin-left: 0.7em;
-        transform: translateY(-60%);
+        transform: translateY(-50%);
         display: inline-block;
         font-weight: bold;
         color: var(--high-contrast-text);
@@ -609,7 +626,7 @@ button {
 
     .github-project-button img {
         display: inline-block;
-        height: 45px;
+        height: 35px;
     }
 
 .project-controls {
