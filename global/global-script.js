@@ -54,6 +54,13 @@ $(function() { // Replacement of $(document).ready() call, which is deprecated
         $("#genetic-algo-img").children().hide();
     });
 
+    $("#codewars-img").children().hide();
+    $("#codewars-img").on("mouseover", ()=> {
+        $("#codewars-img").children().show();
+    }).on("mouseleave", () => {
+        $("#codewars-img").children().hide();
+    });
+
 //#endregion
 
 //#region Projects_Slider

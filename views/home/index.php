@@ -217,11 +217,11 @@
                 <div class="project-item">
                     <div class="item-case" id="genetic-algo-img">
                         <p style="padding: 0.8em 0.5em">
-                        Using genetic algorithm to find a path with python.
+                            Using genetic algorithm to find a path with python.
                             <br><br>
                             Be able to analyze a huge list of points, return a very good path and make crossbreed and mutations.
                         </p>
-                        <a href="https://github.com/VictorMauroy/Dev_Portfolio" class="github-project-button">
+                        <a href="https://github.com/VictorMauroy/genetic-path" class="github-project-button">
                             <img src="../../assets/images/projects_icons/Github-logo-colored_projects.png" alt="github iccon" />
                             <p>See more</p>
                         </a>
@@ -229,33 +229,27 @@
                     <div class="item-details">
                         <h4 style="color: var(--high-contrast-text)">Genetic algorithm</h4>
                         <div>
-                            <img src="../../assets/logos/html5-logo.png" alt="html5 Logo" />
-                            <img src="../../assets/logos/css3-logo.png" alt="css3 logo" />
-                            <img src="../../assets/logos/php-logo.png" alt="php logo" />
-                            <img src="../../assets/logos/jquery-logo.png" alt="Jquery logo" />
+                            <img src="../../assets/logos/python-logo.png" alt="python Logo" />
                         </div>
                     </div>
                 </div>
 
                 <div class="project-item">
-                    <div class="item-case" id="portfolio-img">
+                    <div class="item-case" id="codewars-img">
                         <p style="padding: 0.8em 0.5em">
-                            My portfolio and a training project for vanilla web development. 
+                            Codewars is a website where you can practice on various langages by doing "katas" which are similar to exercices.
                             <br><br>
-                            No import of libraries except for jquery. As a back-end dev, I was lacking of front knowledge.
+                            In each kata, you must create an algorithm that must pass specific tests according to a request.
                         </p>
-                        <a href="https://github.com/VictorMauroy/Dev_Portfolio" class="github-project-button">
+                        <a href="https://github.com/VictorMauroy/Codewars-C-SHARP" class="github-project-button">
                             <img src="../../assets/images/projects_icons/Github-logo-colored_projects.png" alt="github iccon" />
                             <p>See more</p>
                         </a>
                     </div>
                     <div class="item-details">
-                        <h4 style="color: var(--high-contrast-text)">Portfolio (current website)</h4>
+                        <h4 style="color: var(--high-contrast-text)">C# Codewars</h4>
                         <div>
-                            <img src="../../assets/logos/html5-logo.png" alt="html5 Logo" />
-                            <img src="../../assets/logos/css3-logo.png" alt="css3 logo" />
-                            <img src="../../assets/logos/php-logo.png" alt="php logo" />
-                            <img src="../../assets/logos/jquery-logo.png" alt="Jquery logo" />
+                            <img src="../../assets/logos/Logo_C_sharp.png.png" alt="C sharp Logo" />
                         </div>
                     </div>
                 </div>
