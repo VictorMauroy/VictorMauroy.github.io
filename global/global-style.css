@@ -681,6 +681,59 @@ button {
 
 /*#endregion Projects */
 
+/*#region Games */
+
+#games {
+    padding: 2em;
+}
+
+    #games h2 {
+        text-align: center;
+        padding: 1em;
+        color: var(--high-contrast-text);
+    }
+
+    #games p {
+        text-align: center;
+        font-size: 20px;
+    }
+
+.game-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.game-item {
+    min-width: 33%;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    padding: 2em;
+}
+
+@media screen and (max-device-width: 1200px) {
+    .game-item {
+        min-width: 50%;
+    }
+}
+
+@media screen and (max-device-width: 900px) {
+    .game-item {
+        min-width: 100%;
+    }
+}
+
+.next-game {
+    transform: rotate(180deg);
+    padding: 0.5em 0.7em 0.5em 0.5em !important;
+}
+
+.previous-game {
+    padding: 0.5em 0.7em 0.5em 0.5em !important;
+}
+
+/*#endregion Games */
+
 li.current {
     background-color: var(--active-element);
 }
