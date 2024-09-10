@@ -158,8 +158,8 @@
                             Account system, complete database, users and articles management, role attribution, being able to order an article, etc.
                         </p>
                         <a href="https://github.com/VictorMauroy/MoneyBoxWebsite" class="github-project-button">
-                            <img src="../../assets/images/projects_icons/Github-logo-colored_projects.png" alt="github iccon" />
-                            <p>See more</p>
+                        <div></div>
+                        <p>See more</p>
                         </a>
                     </div>
                     <div class="item-details">
@@ -179,7 +179,7 @@
                             The purpose of the latter is to create a website containing solutions about the game. Such as the synthesis of monsters and other useful tools.
                         </p>
                         <a href="https://github.com/VictorMauroy/SynthesisHelper" class="github-project-button">
-                            <img src="../../assets/images/projects_icons/Github-logo-colored_projects.png" alt="github iccon" />
+                            <div></div>
                             <p>See more</p>
                         </a>
                     </div>
@@ -201,7 +201,7 @@
                             No import of libraries except for jquery. As a back-end dev, I was lacking of front knowledge.
                         </p>
                         <a href="https://github.com/VictorMauroy/Dev_Portfolio" class="github-project-button">
-                            <img src="../../assets/images/projects_icons/Github-logo-colored_projects.png" alt="github iccon" />
+                            <div></div>
                             <p>See more</p>
                         </a>
                     </div>
@@ -224,7 +224,7 @@
                             Be able to analyze a huge list of points, return a very good path and make crossbreed and mutations.
                         </p>
                         <a href="https://github.com/VictorMauroy/genetic-path" class="github-project-button">
-                            <img src="../../assets/images/projects_icons/Github-logo-colored_projects.png" alt="github iccon" />
+                            <div></div>
                             <p>See more</p>
                         </a>
                     </div>
@@ -244,7 +244,7 @@
                             In each kata, you must create an algorithm that must pass specific tests according to a request.
                         </p>
                         <a href="https://github.com/VictorMauroy/Codewars-C-SHARP" class="github-project-button">
-                            <img src="../../assets/images/projects_icons/Github-logo-colored_projects.png" alt="github iccon" />
+                            <div></div>
                             <p>See more</p>
                         </a>
                     </div>
@@ -281,7 +281,7 @@
                             Account system, complete database, users and articles management, role attribution, being able to order an article, etc.
                         </p>
                         <a href="https://github.com/VictorMauroy/MoneyBoxWebsite" class="github-project-button">
-                            <img src="../../assets/images/projects_icons/Github-logo-colored_projects.png" alt="github iccon" />
+                            <div></div>
                             <p>See more</p>
                         </a>
                     </div>
