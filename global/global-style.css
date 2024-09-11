@@ -902,7 +902,7 @@ button {
 /*#region Studies */
 #studies {
     position: relative;
-    padding: 2.3em;
+    padding: 2.3em 5em;
 }
 
     #studies::before {
@@ -915,7 +915,7 @@ button {
 
         background-image: url("../assets/design/digital-8280787_1280-WastedGeneration.jpg");
         background-size: cover;
-        opacity: 0.4;
+        opacity: 0.3;
         background-attachment: fixed;
     }
 
@@ -940,23 +940,38 @@ button {
     } */
 
 #studies-slider {
-
+    z-index: 10;
+    position: relative;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 #studies-wrapper {
-
+    display: flex;
+    transition: transform 0.5s ease-in-out;
 }
 
 .study-item {
-    
+    text-align: center;
+    margin-bottom: 1em;
+    min-width: 100%; /*width property wouldn't work*/
 }
 
-#studies-controls {
+    .study-item h3 {
+        font-size: 1.5em;
+        margin-bottom: 0.7em;
+    }
 
+#studies-controls {
+    display: flex;
+    justify-content: center;
 }
 
     #studies-controls button {
-        
+        margin: 1em;
+        height: 20px;
+        width: 20px;
+        border-radius: 15px;
     }
 
 /*#endregion Studies */

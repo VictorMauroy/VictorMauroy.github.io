@@ -272,7 +272,21 @@
         <div id="studies-slider">
             <div id="studies-wrapper">
                 <div class="study-item">
-
+                    <h3>.Net Developer - 5 months</h3>
+                    <p>Algorithmie, développement de sites et applications web sous diverses technologies. Technologies .NET et Microsoft.
+                    Algorithmie, développement de sites et applications web sous diverses technologies. Technologies .NET et Microsoft.
+                    </p>
+                </div>
+                
+                <div class="study-item">
+                    <h3>Game Developer - 3 years</h3>
+                    <p>Développement de jeux vidéo, cours de Design et de dessin, programmation, travaux en équipe, gestion de projet.</p>
+                </div>
+                
+                <div class="study-item">
+                    <h3>DUT in Computer Science - 2 years</h3>
+                    <p>Nombreux langages de programmation, gestion de projet, mathématiques et développement d’applications et sites web.
+                    </p>
                 </div>
             </div>
 
