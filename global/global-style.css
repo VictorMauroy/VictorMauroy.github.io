@@ -899,6 +899,68 @@ button {
 
 /*#endregion Games */
 
+/*#region Studies */
+#studies {
+    position: relative;
+    padding: 2.3em;
+}
+
+    #studies::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+
+        background-image: url("../assets/design/digital-8280787_1280-WastedGeneration.jpg");
+        background-size: cover;
+        opacity: 0.4;
+        background-attachment: fixed;
+    }
+
+    /* Turn off parallax scrolling for all tablets and phones. */
+    @media only screen and (max-device-width: 1366px) {
+        #studies::before {
+        background-attachment: scroll;
+        }
+    }
+
+    #studies h2 {
+        position: relative;
+        margin-bottom: 0.5em;
+        text-align: center;
+        color: var(--high-contrast-text);
+    }
+    
+    /* #studies p {
+        text-align: center;
+        position: relative;
+        font-size: 1.3em;
+    } */
+
+#studies-slider {
+
+}
+
+#studies-wrapper {
+
+}
+
+.study-item {
+    
+}
+
+#studies-controls {
+
+}
+
+    #studies-controls button {
+        
+    }
+
+/*#endregion Studies */
+
 li.current {
     background-color: var(--active-element);
 }

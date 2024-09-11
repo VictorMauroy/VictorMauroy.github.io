@@ -266,6 +266,24 @@
         </div>
     </section>
 
+    <section id="studies">
+        <!-- AI generated image made by WastedGeneration -->
+        <h2>Studies</h2>
+        <div id="studies-slider">
+            <div id="studies-wrapper">
+                <div class="study-item">
+
+                </div>
+            </div>
+
+            <div id="studies-controls">
+                <button id="study-first"></button>
+                <button id="study-second"></button>
+                <button id="study-third"></button>
+            </div>
+        </div>
+    </section>
+
     <section id="games">
         <h2>Games</h2>
         <p>I also like making video games! Here are a few ones that I really loved to do :)</p>
