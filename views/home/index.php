@@ -302,6 +302,82 @@
                     </div>
                 </div>
 
+                <div class="game-item">
+                    <div class="item-case" id="eartgame-img">
+                        <p style="padding: 0.8em 0.5em">
+                            Created at the request of our school, this game aims to introduce you to our school: 
+                            its atmosphere, courses and subjects, as well as some advice from former students!
+                            <br>
+                            <br>
+                            Chat with various characters, interact with the environment and access 
+                            mini-games.
+                        </p>
+                        <a href="https://mauroyvictor.wixsite.com/website/l-%C3%A9cole-e-artsup-lille" class="website-button">
+                            <div></div>
+                            <p>See more</p>
+                        </a>
+                    </div>
+                    <div class="item-details">
+                        <h4 style="color: var(--high-contrast-text)">E-artsup game</h4>
+                        <div>
+                            <img src="../../assets/logos/unity-logo.png" alt="unity Logo" />
+                            <img src="../../assets/logos/Logo_C_sharp.png.png" alt="C sharp logo" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="game-item">
+                    <div class="item-case" id="hardestdungeon-img">
+                        <p style="padding: 0.8em 0.5em">
+                            Under development, I've mainly be doing various programming challenge on that project and 
+                            I learned a lot while developing its game mechanics.
+                            <br>
+                            <br>
+                            Move through the air with ease, throw, tumble or crush your enemies to progress in this 3D platformer.
+                        </p>
+                        <div class="dual-game-link">
+                            <a href="https://mauroyvictor.wixsite.com/website/currentproject" class="website-button">
+                                <div></div>
+                                <p>See more</p>
+                            </a>
+                            <a href="https://github.com/VictorMauroy/The-Hardest-Dungeon" class="github-project-button">
+                                <div></div>
+                                <p>Code</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item-details">
+                        <h4 style="color: var(--high-contrast-text)">The Hardest Dungeon:<br> Training project</h4>
+                        <div>
+                            <img src="../../assets/logos/unity-logo.png" alt="unity Logo" />
+                            <img src="../../assets/logos/Logo_C_sharp.png.png" alt="C sharp logo" />
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="game-item">
+                    <div class="item-case" id="more-img">
+                        <p style="padding: 0.8em 0.5em">
+                            I made a lot more video games, do you want to see more ?
+                            <br>
+                            <br>
+                            Check the link bellow !
+                        </p>
+                        <a href="https://mauroyvictor.wixsite.com/website/mes-jeux" class="website-button">
+                            <div></div>
+                            <p>See more</p>
+                        </a>
+                    </div>
+                    <div class="item-details">
+                        <h4 style="color: var(--high-contrast-text)">Mes autres jeux</h4>
+                        <div>
+                            <img src="../../assets/logos/unity-logo.png" alt="unity Logo" />
+                            <img src="../../assets/logos/Logo_C_sharp.png.png" alt="C sharp logo" />
+                        </div>
+                    </div>
+                </div>
+
                 
 
             </div> <!-- End of game wrapper -->

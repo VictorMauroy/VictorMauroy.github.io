@@ -72,6 +72,20 @@ $("#cherjournal-img").on("mouseover", ()=> {
     $("#cherjournal-img").children().hide();
 });
 
+$("#eartgame-img").children().hide();
+$("#eartgame-img").on("mouseover", ()=> {
+    $("#eartgame-img").children().show();
+}).on("mouseleave", () => {
+    $("#eartgame-img").children().hide();
+});
+
+$("#hardestdungeon-img").children().hide();
+$("#hardestdungeon-img").on("mouseover", ()=> {
+    $("#hardestdungeon-img").children().show();
+}).on("mouseleave", () => {
+    $("#hardestdungeon-img").children().hide();
+});
+
 //#endregion
 
 
