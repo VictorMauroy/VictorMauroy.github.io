@@ -357,9 +357,9 @@
 
                 
                 <div class="game-item">
-                    <div class="item-case" id="more-img">
+                    <div class="item-case" id="moregames-img">
                         <p style="padding: 0.8em 0.5em">
-                            I made a lot more video games, do you want to see more ?
+                            I made a lot more video games, do you want to see them ? 
                             <br>
                             <br>
                             Check the link bellow !
@@ -370,11 +370,7 @@
                         </a>
                     </div>
                     <div class="item-details">
-                        <h4 style="color: var(--high-contrast-text)">Mes autres jeux</h4>
-                        <div>
-                            <img src="../../assets/logos/unity-logo.png" alt="unity Logo" />
-                            <img src="../../assets/logos/Logo_C_sharp.png.png" alt="C sharp logo" />
-                        </div>
+                        <h4 style="color: var(--high-contrast-text)">My other games</h4>
                     </div>
                 </div>
 

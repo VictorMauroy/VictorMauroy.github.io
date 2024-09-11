@@ -86,6 +86,13 @@ $("#hardestdungeon-img").on("mouseover", ()=> {
     $("#hardestdungeon-img").children().hide();
 });
 
+$("#moregames-img").children().hide();
+$("#moregames-img").on("mouseover", ()=> {
+    $("#moregames-img").children().show();
+}).on("mouseleave", () => {
+    $("#moregames-img").children().hide();
+});
+
 //#endregion
 
 

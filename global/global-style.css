@@ -793,7 +793,22 @@ button {
     opacity: 0.20;
 }
 
+#moregames-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
 
+    background-image: url("../assets/images/games_icons/OtherWorks_Icon.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#moregames-img:hover:before {
+    opacity: 0.20;
+}
 
 .website-button {
     background-color: transparent;
