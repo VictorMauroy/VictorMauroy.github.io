@@ -626,9 +626,11 @@ button {
     bottom: 15px;
     z-index: 10;
     text-decoration: none;
+    color: var(--solid-backgrounds);
 
     &:hover{
         background-color: transparent;
+        color: var(--hovered-solid-backgrounds);
     }
 }
 
@@ -637,7 +639,7 @@ button {
         transform: translateY(-50%);
         display: inline-block;
         font-weight: bold;
-        color: var(--high-contrast-text);
+        color: inherit;
     }
 
     .github-project-button div {
@@ -739,6 +741,112 @@ button {
 .previous-game {
     padding: 0.5em 0.7em 0.5em 0.5em !important;
 }
+
+#cherjournal-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+    background-image: url("../assets/images/games_icons/CherJournal_AudreyDiary.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#cherjournal-img:hover:before {
+    opacity: 0.20;
+}
+
+
+
+.website-button {
+    background-color: transparent;
+    border: none;
+    height: 40px;
+    position: absolute;
+    bottom: 15px;
+    z-index: 10;
+    text-decoration: none;
+    color: var(--solid-backgrounds);
+
+    &:hover{
+        background-color: transparent;
+        color: var(--hovered-solid-backgrounds);
+    }
+}
+
+    .website-button p {
+        margin-left: 0.7em;
+        transform: translateY(-50%);
+        display: inline-block;
+        font-weight: bold;
+        color: inherit;
+    }
+
+    .website-button div {
+        display: inline-block;
+        height: 35px;
+        width: 35px;
+        background-color: var(--solid-backgrounds);
+
+        mask:url("../assets/logos/colored-logos/website_icon.png") no-repeat center;
+        mask-size: contain;
+        
+        &:hover{
+            background-color: var(--hovered-solid-backgrounds);
+        }
+    }
+
+.youtube-button {
+    background-color: transparent;
+    border: none;
+    height: 40px;
+    position: absolute;
+    bottom: 15px;
+    z-index: 10;
+    text-decoration: none;
+    color: var(--solid-backgrounds);
+
+    &:hover{
+        background-color: transparent;
+        color: var(--hovered-solid-backgrounds);
+    }
+}
+
+    .youtube-button p {
+        margin-left: 0.7em;
+        transform: translateY(-50%);
+        display: inline-block;
+        font-weight: bold;
+        color: inherit;
+    }
+
+    .youtube-button div {
+        display: inline-block;
+        height: 35px;
+        width: 35px;
+        background-color: var(--solid-backgrounds);
+
+        mask:url("../assets/logos/colored-logos/youtube_icon.png") no-repeat center;
+        mask-size: contain;
+        
+        &:hover{
+            background-color: var(--hovered-solid-backgrounds);
+        }
+    }
+
+.dual-game-link {
+    display: inline;
+    position: absolute;
+    bottom: 0px;
+}
+
+    .dual-game-link a {
+        position: relative !important;
+        margin: 1em !important;
+    }
 
 /*#endregion Games */
 

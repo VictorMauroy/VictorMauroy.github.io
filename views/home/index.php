@@ -272,27 +272,37 @@
 
         <div class="project-slider">
             <div class="game-wrapper">
+
                 <div class="game-item">
-                    <div class="item-case" id="moneybox-img">
+                    <div class="item-case" id="cherjournal-img">
                         <p style="padding: 0.8em 0.5em">
-                            Advanced website made with the .NET technologies.
+                            Cher Journal is a game where you follow the point of view and make choices for two teenagers 
+                            who write in their diaries and confide about their lives.
                             <br>
                             <br>
-                            Account system, complete database, users and articles management, role attribution, being able to order an article, etc.
+                            It's a narrative game with choices on the themes of adolescence and school bullying.
                         </p>
-                        <a href="https://github.com/VictorMauroy/MoneyBoxWebsite" class="github-project-button">
-                            <div></div>
-                            <p>See more</p>
-                        </a>
+                        <div class="dual-game-link">
+                            <a href="https://mauroyvictor.wixsite.com/website/cher-journal" class="website-button">
+                                <div></div>
+                                <p>See more</p>
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=xudUMBcEUQ4" class="youtube-button">
+                                <div></div>
+                                <p>Trailer</p>
+                            </a>
+                        </div>
                     </div>
                     <div class="item-details">
                         <h4 style="color: var(--high-contrast-text)">Cher Journal</h4>
                         <div>
-                            <img src="../../assets/logos/net-logo.png" alt=".NET Logo" />
-                            <img src="../../assets/logos/pgsql-logo.png" alt="PGSQL logo" />
+                            <img src="../../assets/logos/unity-logo.png" alt="unity Logo" />
+                            <img src="../../assets/logos/Logo_C_sharp.png.png" alt="C sharp logo" />
                         </div>
                     </div>
                 </div>
+
+                
 
             </div> <!-- End of game wrapper -->
 

@@ -63,6 +63,18 @@ $(function() { // Replacement of $(document).ready() call, which is deprecated
 
 //#endregion
 
+//#region Games_Cases
+
+$("#cherjournal-img").children().hide();
+$("#cherjournal-img").on("mouseover", ()=> {
+    $("#cherjournal-img").children().show();
+}).on("mouseleave", () => {
+    $("#cherjournal-img").children().hide();
+});
+
+//#endregion
+
+
 //#region Projects_Slider
     var $totalProjects = $(".project-item").length;
     var projectsPerPage;
