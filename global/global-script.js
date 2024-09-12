@@ -195,7 +195,7 @@ $(window).on("resize", function() {
 //#endregion
 
 //#region Studies_Slider
-var $totalStudiesSlides = $('.studies-item').length; 
+var $totalStudiesSlides = $('.study-item').length; 
 var currentStudiesSlide = 0;
 var studiesSlideInterval = 3000; //in milliseconds
 var autoSlide; //The handle, allowing us to stop the auto sliding.
@@ -203,10 +203,26 @@ var autoSlide; //The handle, allowing us to stop the auto sliding.
 function updateStudiesSlider() {
     var offset = -currentStudiesSlide * 100;
     $('#studies-wrapper').css("transform", "translateX(" + offset + "%)");
+    
+    removeActiveStudies();
+    switch(currentStudiesSlide) {
+        case 0:
+            $("#study-first").addClass("active-study");
+            break;
+            
+        case 1:
+            $("#study-second").addClass("active-study");
+            break;
+            
+        case 2:
+            $("#study-third").addClass("active-study");
+            break;
+    }
 }
 
 function nextStudiesSlide() {
-    currentStudiesSlide = (currentStudiesSlide + 1) % $totalStudiesSlides;
+    currentStudiesSlide = (currentStudiesSlide+1 < $totalStudiesSlides) ? currentStudiesSlide+1 : 0;
+    console.log("Current study slide: " + currentStudiesSlide);
     updateStudiesSlider();
 }
 
@@ -215,11 +231,12 @@ function nextStudiesSlide() {
  * @param {Custom delay before auto slide transition} customDelay 
  */
 function startAutoSlide(customDelay) {
-    if(customDelay != 0){
-        autoSlide = setInterval(nextStudiesSlide, customDelay);
-    } else {
-        autoSlide = setInterval(nextStudiesSlide, studiesSlideInterval);
-    }
+    // if(customDelay != 0){
+    //     autoSlide = setInterval(nextStudiesSlide, customDelay);
+    // } else {
+    //     autoSlide = setInterval(nextStudiesSlide, studiesSlideInterval);
+    // }
+    autoSlide = setInterval(nextStudiesSlide, studiesSlideInterval);
 }
 
 function stopAutoSlide() {
@@ -236,8 +253,9 @@ $('#study-first').on("click", ()=>{
     currentStudiesSlide = 0;
     updateStudiesSlider();
     startAutoSlide(5000);
+
     removeActiveStudies();
-    $(this).addClass("active-study");
+    $(event.currentTarget).addClass("active-study");
 });
 
 $('#study-second').on("click", ()=>{
@@ -245,8 +263,9 @@ $('#study-second').on("click", ()=>{
     currentStudiesSlide = 1;
     updateStudiesSlider();
     startAutoSlide(5000);
+
     removeActiveStudies();
-    $(this).addClass("active-study");
+    $(event.currentTarget).addClass("active-study");
 });
 
 $('#study-third').on("click", ()=>{
@@ -254,11 +273,13 @@ $('#study-third').on("click", ()=>{
     currentStudiesSlide = 2;
     updateStudiesSlider();
     startAutoSlide(5000);
+
     removeActiveStudies();
-    $(this).addClass("active-study");
+    $(event.currentTarget).addClass("active-study");
 });
 
 startAutoSlide(studiesSlideInterval); //Start the auto-sliding by default.
+$("#study-first").addClass("active-study");
 
 //#endregion
 });
