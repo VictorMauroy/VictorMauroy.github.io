@@ -944,6 +944,9 @@ button {
     position: relative;
     overflow-x: hidden;
     width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 #studies-wrapper {
@@ -955,6 +958,9 @@ button {
     text-align: center;
     margin-bottom: 1em;
     min-width: 100%; /*width property wouldn't work*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
     .study-item h3 {
@@ -973,6 +979,11 @@ button {
         width: 20px;
         border-radius: 15px;
     }
+
+.active-study {
+    background-color: var(--low-contrast-text) !important;
+    border-color: var(--high-contrast-text) !important;
+}
 
 /*#endregion Studies */
 
