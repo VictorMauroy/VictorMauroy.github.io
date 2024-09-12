@@ -273,7 +273,7 @@
             <div id="studies-wrapper">
                 <div class="study-item">
                     <h3>.Net Developer - 5 months (2023)</h3>
-                    <p>Algorithms in various langages, creation of API, websites and applications. 
+                    <p>Algorithms in various languages, creation of API, websites and applications. 
                         Then focus on .NET and Microsoft Technologies.
                         <br>
                         <br>
@@ -293,9 +293,9 @@
                 
                 <div class="study-item">
                     <h3>DUT in Computer Sciences - 2 years</h3>
-                    <p>Here, I acquired knowledge on many programming langages and a huge variety of development softwares. 
+                    <p>Here, I acquired knowledge on many programming languages and a huge variety of softwares for software development. 
                         <br>
-                        Furthermore, I followed a specilization on web development on my second year.
+                        Furthermore, I followed a specialization on web development on my second year.
                         <br>
                         <br>
                         Other courses: algorithms, advanced mathematics, project management, network management and many others. 
