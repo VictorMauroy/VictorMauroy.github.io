@@ -8,6 +8,6 @@
         <li class="nav-link"><a href="#skills">Skills</a></li>
         <li class="nav-link"><a href="#projects">Projects</a></li>
         <li class="nav-link"><a href="#games">Games</a></li>
-        <li class="nav-link"><a href="#Contact">Contact</a></li>
+        <li class="nav-link"><a href="#contact">Contact</a></li>
     </ul>
 </nav>

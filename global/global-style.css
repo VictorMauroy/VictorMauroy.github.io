@@ -691,6 +691,94 @@ button {
 
 /*#endregion Projects */
 
+/*#region Studies */
+#studies {
+    position: relative;
+    padding: 2.3em 5em;
+}
+
+    #studies::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+
+        background-image: url("../assets/design/digital-8280787_1280-WastedGeneration.jpg");
+        background-size: cover;
+        opacity: 0.3;
+        background-attachment: fixed;
+    }
+
+    /* Turn off parallax scrolling for all tablets and phones. */
+    @media only screen and (max-device-width: 1366px) {
+        #studies::before {
+        background-attachment: scroll;
+        }
+    }
+
+    #studies h2 {
+        position: relative;
+        margin-bottom: 0.5em;
+        text-align: center;
+        color: var(--high-contrast-text);
+    }
+    
+    /* #studies p {
+        text-align: center;
+        position: relative;
+        font-size: 1.3em;
+    } */
+
+#studies-slider {
+    z-index: 10;
+    position: relative;
+    overflow-x: hidden;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+#studies-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.study-item {
+    text-align: center;
+    margin-bottom: 1em;
+    min-width: 100%; /*width property wouldn't work*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+    .study-item h3 {
+        font-size: 1.5em;
+        margin-bottom: 0.7em;
+    }
+
+#studies-controls {
+    display: flex;
+    justify-content: center;
+}
+
+    #studies-controls button {
+        margin: 1em;
+        height: 20px;
+        width: 20px;
+        border-radius: 15px;
+    }
+
+.active-study {
+    background-color: var(--subtle-borders) !important;
+    border-color: var(--ui-border-focus) !important;
+}
+
+/*#endregion Studies */
+
 /*#region Games */
 
 #games {
@@ -899,93 +987,24 @@ button {
 
 /*#endregion Games */
 
-/*#region Studies */
-#studies {
-    position: relative;
-    padding: 2.3em 5em;
+/*#region Contact */
+
+#contact {
+    padding: 2em;
 }
 
-    #studies::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-
-        background-image: url("../assets/design/digital-8280787_1280-WastedGeneration.jpg");
-        background-size: cover;
-        opacity: 0.3;
-        background-attachment: fixed;
-    }
-
-    /* Turn off parallax scrolling for all tablets and phones. */
-    @media only screen and (max-device-width: 1366px) {
-        #studies::before {
-        background-attachment: scroll;
-        }
-    }
-
-    #studies h2 {
-        position: relative;
-        margin-bottom: 0.5em;
+    #contact h2 {
         text-align: center;
+        padding: 1em;
         color: var(--high-contrast-text);
     }
-    
-    /* #studies p {
+
+    #contact p {
         text-align: center;
-        position: relative;
-        font-size: 1.3em;
-    } */
-
-#studies-slider {
-    z-index: 10;
-    position: relative;
-    overflow-x: hidden;
-    width: 100%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box; 
-}
-
-#studies-wrapper {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-
-.study-item {
-    text-align: center;
-    margin-bottom: 1em;
-    min-width: 100%; /*width property wouldn't work*/
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box; 
-}
-
-    .study-item h3 {
-        font-size: 1.5em;
-        margin-bottom: 0.7em;
+        font-size: 20px;
     }
 
-#studies-controls {
-    display: flex;
-    justify-content: center;
-}
-
-    #studies-controls button {
-        margin: 1em;
-        height: 20px;
-        width: 20px;
-        border-radius: 15px;
-    }
-
-.active-study {
-    background-color: var(--subtle-borders) !important;
-    border-color: var(--ui-border-focus) !important;
-}
-
-/*#endregion Studies */
+/*#endregion Contact */
 
 li.current {
     background-color: var(--active-element);
