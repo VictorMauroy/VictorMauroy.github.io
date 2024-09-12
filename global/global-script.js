@@ -250,7 +250,7 @@ $('#study-first').on("click", ()=>{
     stopAutoSlide();
     currentStudiesSlide = 0;
     updateStudiesSlider();
-    startAutoSlide(5000);
+    startAutoSlide(12000);
 
     removeActiveStudies();
     $(event.currentTarget).addClass("active-study");
@@ -260,7 +260,7 @@ $('#study-second').on("click", ()=>{
     stopAutoSlide();
     currentStudiesSlide = 1;
     updateStudiesSlider();
-    startAutoSlide(5000);
+    startAutoSlide(12000);
 
     removeActiveStudies();
     $(event.currentTarget).addClass("active-study");
@@ -270,7 +270,7 @@ $('#study-third').on("click", ()=>{
     stopAutoSlide();
     currentStudiesSlide = 2;
     updateStudiesSlider();
-    startAutoSlide(5000);
+    startAutoSlide(12000);
 
     removeActiveStudies();
     $(event.currentTarget).addClass("active-study");

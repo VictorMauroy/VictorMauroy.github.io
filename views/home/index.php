@@ -272,20 +272,33 @@
         <div id="studies-slider">
             <div id="studies-wrapper">
                 <div class="study-item">
-                    <h3>.Net Developer - 5 months</h3>
-                    <p>Algorithmie, développement de sites et applications web sous diverses technologies. Technologies .NET et Microsoft.
-                    Algorithmie, développement de sites et applications web sous diverses technologies. Technologies .NET et Microsoft.
+                    <h3>.Net Developer - 5 months (2023)</h3>
+                    <p>Algorithms in various langages, creation of API, websites and applications. 
+                        Then focus on .NET and Microsoft Technologies.
+                        <br>
+                        <br>
+                        Main skills: ASP.NET MVC, Git, Ubuntu, SQL Server, Agile, Python, Javascript.
                     </p>
                 </div>
                 
                 <div class="study-item">
                     <h3>Game Developer - 3 years</h3>
-                    <p>Développement de jeux vidéo, cours de Design et de dessin, programmation, travaux en équipe, gestion de projet.</p>
+                    <p>Game design, level design and development of many games on Unity Engine (C#) and Unreal Engine.
+                        <br>
+                        <br>
+                        Delivering a video game project on time can be an arduous task: I also learned a lot about organization, team 
+                        management and staying focus on my work.
+                    </p>
                 </div>
                 
                 <div class="study-item">
-                    <h3>DUT in Computer Science - 2 years</h3>
-                    <p>Nombreux langages de programmation, gestion de projet, mathématiques et développement d’applications et sites web.
+                    <h3>DUT in Computer Sciences - 2 years</h3>
+                    <p>Here, I acquired knowledge on many programming langages and a huge variety of development softwares. 
+                        <br>
+                        Furthermore, I followed a specilization on web development on my second year.
+                        <br>
+                        <br>
+                        Other courses: algorithms, advanced mathematics, project management, network management and many others. 
                     </p>
                 </div>
             </div>
