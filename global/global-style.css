@@ -981,8 +981,8 @@ button {
     }
 
 .active-study {
-    background-color: var(--low-contrast-text) !important;
-    border-color: var(--high-contrast-text) !important;
+    background-color: var(--subtle-borders) !important;
+    border-color: var(--ui-border-focus) !important;
 }
 
 /*#endregion Studies */

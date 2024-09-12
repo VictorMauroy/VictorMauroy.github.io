@@ -197,7 +197,7 @@ $(window).on("resize", function() {
 //#region Studies_Slider
 var $totalStudiesSlides = $('.study-item').length; 
 var currentStudiesSlide = 0;
-var studiesSlideInterval = 3000; //in milliseconds
+var studiesSlideInterval = 3500; //in milliseconds
 var autoSlide; //The handle, allowing us to stop the auto sliding.
 
 function updateStudiesSlider() {
@@ -222,7 +222,6 @@ function updateStudiesSlider() {
 
 function nextStudiesSlide() {
     currentStudiesSlide = (currentStudiesSlide+1 < $totalStudiesSlides) ? currentStudiesSlide+1 : 0;
-    console.log("Current study slide: " + currentStudiesSlide);
     updateStudiesSlider();
 }
 
@@ -231,12 +230,11 @@ function nextStudiesSlide() {
  * @param {Custom delay before auto slide transition} customDelay 
  */
 function startAutoSlide(customDelay) {
-    // if(customDelay != 0){
-    //     autoSlide = setInterval(nextStudiesSlide, customDelay);
-    // } else {
-    //     autoSlide = setInterval(nextStudiesSlide, studiesSlideInterval);
-    // }
-    autoSlide = setInterval(nextStudiesSlide, studiesSlideInterval);
+    if(customDelay != 0){
+        autoSlide = setInterval(nextStudiesSlide, customDelay);
+    } else {
+        autoSlide = setInterval(nextStudiesSlide, studiesSlideInterval);
+    }
 }
 
 function stopAutoSlide() {
