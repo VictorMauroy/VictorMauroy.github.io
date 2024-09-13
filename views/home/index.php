@@ -2,16 +2,16 @@
 <html>
 
 <?php
-    readfile("../../components/head/head.php");
+    require_once("../../components/head/head.php");
 ?>
 
 <body>
     <?php
         // Inserting the header with the navigation bar. 
-        readfile("../../components/navigation/navigation.php");
+        require_once("../../components/navigation/navigation.php");
 
         // Insert the links at the right of the page
-        // readfile("../../components/links/links.php");
+        // require_once("../../components/links/links.php");
     ?>
 
 
@@ -433,12 +433,12 @@
 
     <?php
         // Insert the footer. 
-        readfile("../../components/contact/contact.php");
+        require_once("../../components/contact/contact.php");
     ?>
 
     <?php
         // Insert the footer. 
-        readfile("../../components/footer/footer.php");
+        require_once("../../components/footer/footer.php");
     ?>
 </body>
 
