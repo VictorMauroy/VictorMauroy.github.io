@@ -1,0 +1,18 @@
+/*#region Contact */
+
+#contact {
+    padding: 2em;
+}
+
+    #contact h2 {
+        text-align: center;
+        padding: 1em;
+        color: var(--high-contrast-text);
+    }
+
+    #contact p {
+        text-align: center;
+        font-size: 20px;
+    }
+
+/*#endregion Contact */
