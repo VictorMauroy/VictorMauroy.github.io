@@ -20,22 +20,26 @@
     <h2>Me contacter</h2>
     <p>Do you want to learn more ? Send me a message by using the following form or my links, I'll quickly answer.</p>
     
-    <div>
-        <form action="" method="POST">
+    <div id="contact-wrapper">
+        <form action="" method="POST" onsubmit="formValidation()">
             
             <div class="form-element">
-                <input autocomplete="on" placeholder="Name" name="nom" type="text" value="<?php echo $name; ?>">
-                <span class="hidden-span">The field is required.</span>
+                <label for="nom">Name</label>
+                <input autocomplete="on" placeholder="Name" name="nom" 
+                    type="text" onblur="nameValidation()" value="<?php echo $name; ?>">
+                <span id="name-error"></span>
             </div>
             
             <div class="form-element">
-                <input type="mail" name="email" autocomplete="on" placeholder="Email" value="<?= $email; ?>">
-                <span class="hidden-span">The field is required.</span>
+                <label for="email">Mail</label>
+                <input type="mail" name="email" autocomplete="on" placeholder="Email" onblur="emailValidation()" value="<?= $email; ?>">
+                <span id="email-error"></span>
             </div>
-
+            
             <div class="form-element">
+                <label for="message">Message</label>
                 <input type="text" name="message" placeholder="Message" value="<?= $message; ?>">
-                <span class="hidden-span">The field is required.</span>
+                <span id="message-error"></span>
             </div>
     
             <input type="submit" value="Send" />
