@@ -36,17 +36,17 @@
                 <span id="email-error"></span>
             </div>
             
-            <div class="form-element">
+            <div class="form-element" id="message-area">
                 <label for="message">Message</label>
-                <input type="text" name="message" placeholder="Message" value="<?= $message; ?>">
+                <textarea name="message" placeholder="Enter your message here" rows="6"><?= $message; ?></textarea>
                 <span id="message-error"></span>
             </div>
     
-            <input type="submit" value="Send" />
+            <input type="submit" id="submit-button" value="Send" />
             <span><?= $request_status ?></span>
         </form>
 
-        <div>
+        <div id="other-contacts">
 
         </div>
     </div>
