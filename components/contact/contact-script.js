@@ -69,3 +69,14 @@ function messageValidation() {
         validateMessage = true;
     }
 }
+
+
+function formValidation() {
+    var validationState = validateName && validateEmail && validateMessage;
+
+    if(!validationState) {
+        $('#submission-status').text("The form hasn't been submitted. Please check each field for errors.")
+    }
+
+    return validationState;
+}

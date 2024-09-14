@@ -21,7 +21,7 @@
     <p>Do you want to learn more ? Send me a message by using the following form or my links, I'll quickly answer.</p>
     
     <div id="contact-wrapper">
-        <form action="" method="POST" onsubmit="formValidation()">
+        <form action="" method="POST" onsubmit="return formValidation()">
             
             <div class="form-element">
                 <label for="nom">Name</label>
@@ -43,7 +43,7 @@
             </div>
     
             <input type="submit" id="submit-button" value="Send" />
-            <span><?= $request_status ?></span>
+            <span id="submission-status"><?= $request_status ?></span>
         </form>
 
         <div id="other-contacts">
