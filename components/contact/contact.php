@@ -21,18 +21,18 @@
     <p>Do you want to learn more ? Send me a message by using the following form or my links, I'll quickly answer.</p>
     
     <div id="contact-wrapper">
-        <form action="" method="POST" onsubmit="return formValidation()">
+        <form action="#contact" method="POST" onsubmit="return formValidation()">
             
             <div class="form-element">
                 <label for="nom">Name</label>
-                <input autocomplete="on" placeholder="Name" name="nom" 
+                <input autocomplete="on" placeholder="Enter your first and last name" name="nom" 
                     type="text" onblur="nameValidation()" value="<?php echo $name; ?>">
                 <span id="name-error"></span>
             </div>
             
             <div class="form-element">
                 <label for="email">Mail</label>
-                <input type="mail" name="email" autocomplete="on" placeholder="Email" onblur="emailValidation()" value="<?= $email; ?>">
+                <input type="mail" name="email" autocomplete="on" placeholder="Enter your email address" onblur="emailValidation()" value="<?= $email; ?>">
                 <span id="email-error"></span>
             </div>
             
