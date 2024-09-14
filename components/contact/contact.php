@@ -17,7 +17,7 @@
 ?>
 
 <section id="contact">
-    <h2>Me contacter</h2>
+    <h2>Say hello</h2>
     <p>Do you want to learn more ? Send me a message by using the following form or my links, I'll quickly answer.</p>
     
     <div id="contact-wrapper">
@@ -48,14 +48,20 @@
 
         <div id="other-contacts">
             <div id="informations">
-
+                <div class="information-element">
+                    <img src="../../assets/logos/colored-logos/gmail-logo_blue.png" alt="email logo" />
+                    <span><a class="contact-link" href="mailto:mauroy.victor@gmail.com">mauroy.victor@gmail.com</a></span>
+                </div>
+                <div class="information-element">
+                    <img src="../../assets/logos/colored-logos/Localisation_logo.png" alt="address logo" />
+                    <span><a class="contact-link" href="https://www.google.com/maps/place/Amiens/">80000 Amiens</a></span>
+                </div>
             </div>
             <div class="links">
                 <div class="github-link github-button">
                 </div>
                 <div class="linkedin-link linkedin-button">
                 </div>
-                <div class="gmail-link gmail-button"></div>
             </div>
         </div>
     </div>
