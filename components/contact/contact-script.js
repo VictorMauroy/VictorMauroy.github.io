@@ -6,7 +6,7 @@ function nameValidation() {
     var name = document.getElementsByName("nom")[0].value;
     
     if(name === "") {
-        $('#name-error').text("That field cannot be empty.");
+        $('#name-error').text("That field cannot be left empty.");
         validateName = false;
     } else if(name.length < 4) {
         $('#name-error').text("Please, enter a valid name. Yours seems too short.");
@@ -25,7 +25,7 @@ function emailValidation() {
     
     if(email === "") 
     {
-        $('#email-error').text("That field cannot be empty.");
+        $('#email-error').text("That field cannot be left empty.");
         validateEmail = false;
     } 
     else if(email.length < 10) 
@@ -46,5 +46,26 @@ function emailValidation() {
     else {
         $('#email-error').text("");
         validateEmail = true;
+    }
+}
+
+function messageValidation() {
+    var message = document.getElementsByName("message")[0].value;
+
+    if(message === "") {
+        validateMessage = false;
+        $('#message-error').text("That field cannot be left empty.");
+    } 
+    else if(message.length < 20) {
+        validateMessage = false;
+        $('#message-error').text("Your message is quite short. Was it an error ?");
+    } 
+    else if(message.length > 1000) {
+        validateMessage = false;
+        $('#message-error').text("Your message seems too long. Can you reduce its length ?");
+    } 
+    else {
+        $('#message-error').text("");
+        validateMessage = true;
     }
 }

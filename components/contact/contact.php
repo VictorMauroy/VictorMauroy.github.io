@@ -38,7 +38,7 @@
             
             <div class="form-element" id="message-area">
                 <label for="message">Message</label>
-                <textarea name="message" placeholder="Enter your message here" rows="6"><?= $message; ?></textarea>
+                <textarea name="message" placeholder="Enter your message here" onblur="messageValidation()" rows="6"><?= $message; ?></textarea>
                 <span id="message-error"></span>
             </div>
     
