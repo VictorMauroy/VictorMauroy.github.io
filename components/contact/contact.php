@@ -47,7 +47,16 @@
         </form>
 
         <div id="other-contacts">
+            <div id="informations">
 
+            </div>
+            <div class="links">
+                <div class="github-link github-button">
+                </div>
+                <div class="linkedin-link linkedin-button">
+                </div>
+                <div class="gmail-link gmail-button"></div>
+            </div>
         </div>
     </div>
 </section>

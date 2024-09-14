@@ -26,6 +26,7 @@
 
     #contact-wrapper form {
         width: 50%;
+        padding: 1em;
     }
 
 .form-element {
@@ -88,5 +89,15 @@
 #submission-status {
     margin-left: 3em;
 }
+
+#other-contacts {
+    width: 50%;
+    padding: 1em;
+}
+
+    #other-contacts .links {
+        display: flex;
+        flex-direction: row;
+    }
 
 /*#endregion Contact */

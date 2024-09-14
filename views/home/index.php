@@ -48,11 +48,11 @@
                 </p>
                 <hr>
                 <div class="links">
-                    <div class="github-link" id="github-button">
+                    <div class="github-link github-button">
                     </div>
-                    <div class="linkedin-link"  id="linkedin-button">
+                    <div class="linkedin-link linkedin-button">
                     </div>
-                    <div class="gmail-link" id="gmail-button"></div>
+                    <div class="gmail-link gmail-button"></div>
                 </div>
             </div>
 
