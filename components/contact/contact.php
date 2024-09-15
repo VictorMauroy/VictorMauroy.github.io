@@ -13,7 +13,7 @@
     if($_SERVER["REQUEST_METHOD"] == "POST") // Waiting for the form to be completed, then act. 
     {
         // Validation and sanitazing of the NAME input.
-        $name = $_POST['nom'];
+        $name = trim($_POST['nom']);
         $final_name = ""; // If every validation successfully ended, that variable will be set.
         
         $name_length = strlen($name);
@@ -34,7 +34,7 @@
 
 
         // Validation and sanitazing of the EMAIL input.
-        $email = $_POST['email'];
+        $email = trim($_POST['email']);
         $final_email = "";
 
         $email_length = strlen($email);
@@ -57,8 +57,9 @@
             }
         }
 
+
         // Validation and sanitazing of the MESSAGE input.
-        $message = $_POST['message'];
+        $message = trim($_POST['message']);
         $final_message = ""; // If every validation successfully ended, that variable will be set.
         
         $message_length = strlen($message);
@@ -77,9 +78,13 @@
             $message_error = "";
         }
 
+
+        // If every field has been successfully validated, use the informations.
         if(!empty($final_name) && !empty($final_email) && !empty($final_message)) {
             $request_status = "The form has been successfully submitted.";
             
+
+
         } else {
             $request_status = "The form hasn't been submitted. There might be some errors with your informations.";
         }
