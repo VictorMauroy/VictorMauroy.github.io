@@ -1,12 +1,5 @@
 <?php 
 
-require 'phpmailer/src/PHPMailer.php';
-require 'phpmailer/src/SMTP.php';
-require 'phpmailer/src/Exception.php';
-
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-
 $name = "";
 $email = "";
 $message = "";
@@ -88,14 +81,38 @@ if($_SERVER["REQUEST_METHOD"] == "POST") // Waiting for the form to be completed
 
     // If every field has been successfully validated, use the informations.
     if(!empty($final_name) && !empty($final_email) && !empty($final_message)) {
-        $request_status = "The form has been successfully submitted.";
         
+        $to = "mauroy.victor@gmail.com";                     // Recipient's email address
+        $subject = "New form submission: {$final_name}";   // Email subject
+        $headers = "From: {$final_email}";                   // Sender's email address
+        $message_body = "Your website form has been used. Here is the message:\n" +
+                    "From: {$final_name}, \n\n" +
+                    "$final_message";                        // Email body
 
+        try{
+            // Send email
+
+            /*
+                WARNING:
+
+                I don't have much time left to work on that feature. I just learned that Github pages cannot server-side languages.
+                Other free hosting options are no longer available. 
+
+                There is a last problem while sending an email, the website refresh when we submit the form but the contact section disappear.
+                If anyone has the solution, I'm interested. For now, I'll work on a PHP-empty website...
+            */
+            if(mail($to, $subject, $message_body, $headers)) {
+                $request_status = "The form has been successfully submitted.";
+            } else {
+                $request_status = "Failed to send email.";
+            }
+        }catch(Exception $e){
+            $request_status = "Failed to send email. Exception: " + $e;
+        }
 
     } else {
         $request_status = "The form hasn't been submitted. There might be some errors with your informations.";
     }
-
 }
 ?>
 
