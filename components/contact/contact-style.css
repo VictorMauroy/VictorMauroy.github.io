@@ -91,26 +91,26 @@
 }
 
 #other-contacts {
-    width: 50%;
+    width: 100%;
     padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
     #other-contacts .links {
         display: flex;
         flex-direction: row;
-        height: 50%;
     }
 
 #informations {
-    height: 30%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-direction: row;
 }
 
 .information-element {
     display: flex;
-    justify-content: center;
+    margin: auto;
 }
 
     .information-element > * {
