@@ -47,6 +47,20 @@
     text-decoration: none; /* Remove underlining from 'a' elements */
 }
 
+#website-name {
+    display: inline;
+    font-size: 1.8em;
+    width: 20%;
+    padding: 0.5em 0.5em;
+    min-width: 120px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 #nav-height {
     height: 5em;
 }
