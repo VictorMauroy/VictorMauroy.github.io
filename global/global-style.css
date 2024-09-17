@@ -255,6 +255,11 @@ button {
     mask-size: contain;
 }
 
+.map-link {
+    mask:url("../assets/logos/colored-logos/Localisation_logo.png") no-repeat center;
+    mask-size: contain;
+}
+
 
 #profile-picture {
     padding: 1em 4em;

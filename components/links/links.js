@@ -15,5 +15,9 @@ $(document).ready(() => {
     $('.gmail-button').on('click', () => {
         openLinkInNewTab("mailto:mauroy.victor@gmail.com");
     });
+    
+    $('.map-button').on('click', () => {
+        openLinkInNewTab("https://www.google.com/maps/place/Amiens/");
+    });
 
 });

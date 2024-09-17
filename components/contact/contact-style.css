@@ -110,7 +110,8 @@
 
 .information-element {
     display: flex;
-    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
     .information-element > * {
@@ -137,4 +138,29 @@
     }
 }
 
+.special-contact-link {
+    padding: 0.5em;
+    margin: 1em 2em;
+    height: 50px;
+    /* Add something to avoid rectangle images to wrap themselves*/
+    object-fit: contain;
+    cursor: pointer;
+    background-color: var(--solid-backgrounds);
+    
+    &:hover {
+        background-color: var(--low-contrast-text);
+    }
+}
+
+.contact-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+}
+
+    .contact-element p {
+        font-size: 1.5em;
+        font-weight: bolder;
+    }
 /*#endregion Contact */
